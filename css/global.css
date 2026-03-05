@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.test{
+    border: none;
+    border-bottom: solid #880cee 1px;
+}
+
+@keyframes up-down {
+    0%{
+        scale: 1;
+    }50%{
+        scale: .8;
+        box-shadow: none;
+    }100%{
+        scale: 1;
+    }
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(18) forwards;
+}
+
+@keyframes typing {
+  from { width: 0; opacity: 0; }
+  to { width: 100%; opacity: 1;}
+}
+
+.fade{
+    animation: fade 1s .5s forwards;
+}
+
+@keyframes fade {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
+.fade-up{
+    animation: fade-up 1s .5s forwards;
+}
+
+@keyframes fade-up {
+    from{
+        transform: translateY(5px);
+        opacity: 0;
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-down{
+    animation: fade-down 1s .5s forwards;
+}
+
+@keyframes fade-down {
+    from{
+        transform: translateY(-5px);
+        opacity: 0;
+    }to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
