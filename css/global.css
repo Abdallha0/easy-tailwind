@@ -1,77 +1,104 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
+    font-family: system-ui;
 }
 
-button{
+button {
     cursor: pointer;
     border: none;
     outline: none;
 }
 
-.test{
-    border: none;
-    border-bottom: solid #880cee 1px;
+input {
+    -webkit-text-fill-color: #ffffff;
 }
 
 @keyframes up-down {
-    0%{
-        scale: 1;
-    }50%{
+    0% {
         scale: .8;
-        box-shadow: none;
-    }100%{
+    }
+
+    50% {
         scale: 1;
+
+    }
+
+    100% {
+        scale: .8;
     }
 }
+
 .typewriter {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(18) forwards;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(10) forwards;
 }
 
 @keyframes typing {
-  from { width: 0; opacity: 0; }
-  to { width: 100%; opacity: 1;}
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 10ch;
+    }
 }
 
-.fade{
-    animation: fade 1s .5s forwards;
+.fade {
+    animation: fade 1s forwards;
 }
 
 @keyframes fade {
-    from{
+    from {
         opacity: 0;
-    }to{
+    }
+
+    to {
         opacity: 1;
     }
 }
 
-.fade-up{
-    animation: fade-up 1s .5s forwards;
+.fade-up {
+    animation: fade-up 1s forwards;
 }
 
 @keyframes fade-up {
-    from{
+    from {
         transform: translateY(5px);
         opacity: 0;
-    }to{
+    }
+
+    to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-.fade-down{
-    animation: fade-down 1s .5s forwards;
+.fade-down {
+    animation: fade-down 1s forwards;
 }
 
 @keyframes fade-down {
-    from{
+    from {
         transform: translateY(-5px);
         opacity: 0;
-    }to{
+    }
+
+    to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes line {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
     }
 }

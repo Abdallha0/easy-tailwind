@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Easy Tailwind</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen min-w-screen text-white bg-gradient-to-r from-[#1e1e1e] via-[#001a3d] to-[#1e1e1e] bg-cover">
+    <header class="p-4 w-full flex gap-4 items-center">
+        <div class="size-[30px]">
+            <img src="./images/tailwind-logo.png" class="w-full h-full" alt="">
+        </div>
+        <h1 class="text-2xl font-semibold">Easy Tailwind</h1>
+    </header>
+
+    <section class="w-full h-[calc(100vh-1rem)] flex justify-center items-center">
+        <div class="container size-full flex justify-center items-center relative">
+            <div class="size-[250px] scale-150 rounded-full bg-[#730096] blur-3xl absolute"></div>
+            <h2
+                class="absolute top-8 text-5xl capitalize font-medium text-[#0bcae4] text-center typewriter ease-in-out">
+                Convert
+                Css <br /> <span class="text-3xl mt-1">to Tailwind</span>
+            </h2>
+            <!-- <div class="absolute gap-4 size-full z-10 hidden md:flex">
+                <div
+                    class="text-wrap size-[70px] flex justify-center items-center capitalize p-4 translate-x-[-50%] rounded-lg shadow-[0_0_10px_5px_inset_#7e03c579] bg-gradient-to-r from-[#663398] to-[#73009680] text-center">
+                    Css</div>
+                <div
+                    class="text-wrap flex justify-center items-center capitalize size-[70px] p-4 translate-x-[-50%] rounded-lg shadow-[0_0_10px_5px_inset_#7e03c579] bg-gradient-to-r from-[#663398] to-[#73009680] text-center">
+                    120 core</div>
+                <div
+                    class="text-wrap flex justify-center items-center capitalize size-[70px] translate-x-[-50%] rounded-lg shadow-[0_0_10px_5px_inset_#7e03c579] bg-gradient-to-r from-[#663398] to-[#73009680] text-center">
+                    <img src="./images/white-tailwind.png" class="size-[60px]" alt="">
+                </div>
+                <div
+                    class="text-wrap flex justify-center items-center capitalize size-[70px] text-sm p-4 translate-x-[-50%] rounded-lg shadow-[0_0_10px_5px_inset_#7e03c579] bg-gradient-to-r from-[#663398] to-[#73009680] text-center">
+                    158 property</div>
+                <div
+                    class="text-wrap flex justify-center items-center capitalize p-4 size-[70px] text-sm translate-x-[-50%] rounded-lg shadow-[0_0_10px_5px_inset_#7e03c579] bg-gradient-to-r from-[#663398] to-[#73009680] text-center">
+                    hight preformance</div>
+            </div> -->
+            <div class="absolute z-20 w-[280px] fade md:w-[450px]">
+                <form action="" method="post" class="relative">
+                    <input name="search" id="search" type="text"
+                        class="bg-transparent text-white text-pretty outline-none cursor-text py-2 w-full"
+                        placeholder="search...">
+                    <div class=" bg-white h-[1px] w-full animate-[line_2.5s_normal] ease-linear"></div>
+                    <button type="submit"
+                        class="absolute rounded-2xl top-3 p-1 bg-[#0bcae4] right-0 animate-bounce active:scale-90">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="#fff" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </button>
+                    <label class="block pt-2 text-end capitalize text-[#fff] fade-down delay-300" for="search">type css
+                        declaration</label>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="w-full h-fit p-4">
+        <div class="w-fit m-auto text-center">
+            <h2 class="text-3xl fade-up">
+                Most Used
+            </h2>
+            <div class="p-1 scale-x-150 border-b-[1px] animate-[line_1s_forwards] border-[#0bcae4]"></div>
+        </div>
+        <div class="flex justify-evenly gap-x-2 gap-y-10 flex-wrap p-4 mt-8">
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class=" fade overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#ffffff41] w-[260px] h-[160px] p-[3px]">
+                <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
+                    <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b]">
+                        <p class="text-xl pb-2">p-4</p>
+                        <p class="text-[#ffffff81]">padding: 1rem;</p>
+                    </div>
+                    <div class="flex justify-between items-center gap-2 h-auto p-2">
+                        <p class="capitalize text-wrap text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
+                            applied padding with 1rem Lorem ipsum dolor.
+                        </p>
+                        <button onclick="this.innerHTML = 'copied!'" title="copy class"
+                            class="w-12 h-8 flex justify-center text-[11px] font-semibold items-center rounded-md bg-[#0bcae4] shadow-[0_0_10px_2px_#ffffff75] active:scale-90 active:shadow-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                class="bi bi-copy" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
