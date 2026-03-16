@@ -16,6 +16,9 @@ input {
     -webkit-text-fill-color: #ffffff;
 }
 
+.text{
+}
+
 @keyframes up-down {
     0% {
         scale: .8;
