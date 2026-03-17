@@ -1,3144 +1,3144 @@
 [
   {
-    "css": "font-weight: bold",
+    "css": "font-weight: bold;",
     "class": "font-bold",
     "description": "Makes text bold (font-weight: 700)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 100",
+    "css": "font-weight: 100;",
     "class": "font-thin",
     "description": "Sets font weight to thin (100)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 200",
+    "css": "font-weight: 200;",
     "class": "font-extralight",
     "description": "Sets font weight to extra light (200)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 300",
+    "css": "font-weight: 300;",
     "class": "font-light",
     "description": "Sets font weight to light (300)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 400",
+    "css": "font-weight: 400;",
     "class": "font-normal",
     "description": "Sets font weight to normal (400)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 500",
+    "css": "font-weight: 500;",
     "class": "font-medium",
     "description": "Sets font weight to medium (500)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 600",
+    "css": "font-weight: 600;",
     "class": "font-semibold",
     "description": "Sets font weight to semibold (600)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 800",
+    "css": "font-weight: 800;",
     "class": "font-extrabold",
     "description": "Sets font weight to extra bold (800)",
     "category": "Typography"
   },
   {
-    "css": "font-weight: 900",
+    "css": "font-weight: 900;",
     "class": "font-black",
     "description": "Sets font weight to black (900)",
     "category": "Typography"
   },
   {
-    "css": "font-style: italic",
+    "css": "font-style: italic;",
     "class": "italic",
     "description": "Makes text italic",
     "category": "Typography"
   },
   {
-    "css": "font-style: normal",
+    "css": "font-style: normal;",
     "class": "not-italic",
     "description": "Removes italic styling from text",
     "category": "Typography"
   },
   {
-    "css": "font-size: 0.75rem",
+    "css": "font-size: 0.75rem;",
     "class": "text-xs",
     "description": "Sets font size to 12px (0.75rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 0.875rem",
+    "css": "font-size: 0.875rem;",
     "class": "text-sm",
     "description": "Sets font size to 14px (0.875rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 1rem",
+    "css": "font-size: 1rem;",
     "class": "text-base",
     "description": "Sets font size to 16px (1rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 1.125rem",
+    "css": "font-size: 1.125rem;",
     "class": "text-lg",
     "description": "Sets font size to 18px (1.125rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 1.25rem",
+    "css": "font-size: 1.25rem;",
     "class": "text-xl",
     "description": "Sets font size to 20px (1.25rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 1.5rem",
+    "css": "font-size: 1.5rem;",
     "class": "text-2xl",
     "description": "Sets font size to 24px (1.5rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 1.875rem",
+    "css": "font-size: 1.875rem;",
     "class": "text-3xl",
     "description": "Sets font size to 30px (1.875rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 2.25rem",
+    "css": "font-size: 2.25rem;",
     "class": "text-4xl",
     "description": "Sets font size to 36px (2.25rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 3rem",
+    "css": "font-size: 3rem;",
     "class": "text-5xl",
     "description": "Sets font size to 48px (3rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 3.75rem",
+    "css": "font-size: 3.75rem;",
     "class": "text-6xl",
     "description": "Sets font size to 60px (3.75rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 4.5rem",
+    "css": "font-size: 4.5rem;",
     "class": "text-7xl",
     "description": "Sets font size to 72px (4.5rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 6rem",
+    "css": "font-size: 6rem;",
     "class": "text-8xl",
     "description": "Sets font size to 96px (6rem)",
     "category": "Typography"
   },
   {
-    "css": "font-size: 8rem",
+    "css": "font-size: 8rem;",
     "class": "text-9xl",
     "description": "Sets font size to 128px (8rem)",
     "category": "Typography"
   },
   {
-    "css": "text-align: left",
+    "css": "text-align: left;",
     "class": "text-left",
     "description": "Aligns text to the left",
     "category": "Typography"
   },
   {
-    "css": "text-align: center",
+    "css": "text-align: center;",
     "class": "text-center",
     "description": "Centers text horizontally",
     "category": "Typography"
   },
   {
-    "css": "text-align: right",
+    "css": "text-align: right;",
     "class": "text-right",
     "description": "Aligns text to the right",
     "category": "Typography"
   },
   {
-    "css": "text-align: justify",
+    "css": "text-align: justify;",
     "class": "text-justify",
     "description": "Justifies text on both sides",
     "category": "Typography"
   },
   {
-    "css": "text-decoration: underline",
+    "css": "text-decoration: underline;",
     "class": "underline",
     "description": "Adds underline to text",
     "category": "Typography"
   },
   {
-    "css": "text-decoration: line-through",
+    "css": "text-decoration: line-through;",
     "class": "line-through",
     "description": "Adds strikethrough to text",
     "category": "Typography"
   },
   {
-    "css": "text-decoration: none",
+    "css": "text-decoration: none;",
     "class": "no-underline",
     "description": "Removes text decoration",
     "category": "Typography"
   },
   {
-    "css": "text-decoration: overline",
+    "css": "text-decoration: overline;",
     "class": "overline",
     "description": "Adds overline to text",
     "category": "Typography"
   },
   {
-    "css": "text-transform: uppercase",
+    "css": "text-transform: uppercase;",
     "class": "uppercase",
     "description": "Transforms text to uppercase",
     "category": "Typography"
   },
   {
-    "css": "text-transform: lowercase",
+    "css": "text-transform: lowercase;",
     "class": "lowercase",
     "description": "Transforms text to lowercase",
     "category": "Typography"
   },
   {
-    "css": "text-transform: capitalize",
+    "css": "text-transform: capitalize;",
     "class": "capitalize",
     "description": "Capitalizes the first letter of each word",
     "category": "Typography"
   },
   {
-    "css": "text-transform: none",
+    "css": "text-transform: none;",
     "class": "normal-case",
     "description": "Removes text transformation",
     "category": "Typography"
   },
   {
-    "css": "line-height: 1",
+    "css": "line-height: 1;",
     "class": "leading-none",
     "description": "Sets line height to 1 (no extra spacing)",
     "category": "Typography"
   },
   {
-    "css": "line-height: 1.25",
+    "css": "line-height: 1.25;",
     "class": "leading-tight",
     "description": "Sets line height to 1.25",
     "category": "Typography"
   },
   {
-    "css": "line-height: 1.375",
+    "css": "line-height: 1.375;",
     "class": "leading-snug",
     "description": "Sets line height to 1.375",
     "category": "Typography"
   },
   {
-    "css": "line-height: 1.5",
+    "css": "line-height: 1.5;",
     "class": "leading-normal",
     "description": "Sets line height to 1.5",
     "category": "Typography"
   },
   {
-    "css": "line-height: 1.625",
+    "css": "line-height: 1.625;",
     "class": "leading-relaxed",
     "description": "Sets line height to 1.625",
     "category": "Typography"
   },
   {
-    "css": "line-height: 2",
+    "css": "line-height: 2;",
     "class": "leading-loose",
     "description": "Sets line height to 2",
     "category": "Typography"
   },
   {
-    "css": "letter-spacing: -0.05em",
+    "css": "letter-spacing: -0.05em;",
     "class": "tracking-tighter",
     "description": "Sets very tight letter spacing",
     "category": "Typography"
   },
   {
-    "css": "letter-spacing: -0.025em",
+    "css": "letter-spacing: -0.025em;",
     "class": "tracking-tight",
     "description": "Sets tight letter spacing",
     "category": "Typography"
   },
   {
-    "css": "letter-spacing: 0em",
+    "css": "letter-spacing: 0em;",
     "class": "tracking-normal",
     "description": "Sets normal letter spacing",
     "category": "Typography"
   },
   {
-    "css": "letter-spacing: 0.025em",
+    "css": "letter-spacing: 0.025em;",
     "class": "tracking-wide",
     "description": "Sets wide letter spacing",
     "category": "Typography"
   },
   {
-    "css": "letter-spacing: 0.05em",
+    "css": "letter-spacing: 0.05em;",
     "class": "tracking-wider",
     "description": "Sets wider letter spacing",
     "category": "Typography"
   },
   {
-    "css": "letter-spacing: 0.1em",
+    "css": "letter-spacing: 0.1em;",
     "class": "tracking-widest",
     "description": "Sets widest letter spacing",
     "category": "Typography"
   },
   {
-    "css": "white-space: nowrap",
+    "css": "white-space: nowrap;",
     "class": "whitespace-nowrap",
     "description": "Prevents text from wrapping",
     "category": "Typography"
   },
   {
-    "css": "white-space: pre",
+    "css": "white-space: pre;",
     "class": "whitespace-pre",
     "description": "Preserves whitespace and line breaks",
     "category": "Typography"
   },
   {
-    "css": "white-space: pre-line",
+    "css": "white-space: pre-line;",
     "class": "whitespace-pre-line",
     "description": "Preserves line breaks only",
     "category": "Typography"
   },
   {
-    "css": "white-space: pre-wrap",
+    "css": "white-space: pre-wrap;",
     "class": "whitespace-pre-wrap",
     "description": "Preserves whitespace and wraps text",
     "category": "Typography"
   },
   {
-    "css": "white-space: normal",
+    "css": "white-space: normal;",
     "class": "whitespace-normal",
     "description": "Normal whitespace handling",
     "category": "Typography"
   },
   {
-    "css": "word-break: break-all",
+    "css": "word-break: break-all;",
     "class": "break-all",
     "description": "Breaks words at any character",
     "category": "Typography"
   },
   {
-    "css": "word-break: keep-all",
+    "css": "word-break: keep-all;",
     "class": "break-keep",
     "description": "Prevents word breaks for CJK text",
     "category": "Typography"
   },
   {
-    "css": "overflow-wrap: break-word",
+    "css": "overflow-wrap: break-word;",
     "class": "break-words",
     "description": "Breaks long words to prevent overflow",
     "category": "Typography"
   },
   {
-    "css": "font-family: ui-serif, Georgia, serif",
+    "css": "font-family: ui-serif, Georgia, serif;",
     "class": "font-serif",
     "description": "Applies a serif font stack",
     "category": "Typography"
   },
   {
-    "css": "font-family: ui-sans-serif, system-ui, sans-serif",
+    "css": "font-family: ui-sans-serif, system-ui, sans-serif;",
     "class": "font-sans",
     "description": "Applies a sans-serif font stack",
     "category": "Typography"
   },
   {
-    "css": "font-family: ui-monospace, monospace",
+    "css": "font-family: ui-monospace, monospace;",
     "class": "font-mono",
     "description": "Applies a monospace font stack",
     "category": "Typography"
   },
 
   {
-    "css": "margin: 0",
+    "css": "margin: 0;",
     "class": "m-0",
     "description": "Removes all margin",
     "category": "Spacing"
   },
   {
-    "css": "margin: 0.25rem",
+    "css": "margin: 0.25rem;",
     "class": "m-1",
     "description": "Applies margin of 4px (0.25rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 0.5rem",
+    "css": "margin: 0.5rem;",
     "class": "m-2",
     "description": "Applies margin of 8px (0.5rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 0.75rem",
+    "css": "margin: 0.75rem;",
     "class": "m-3",
     "description": "Applies margin of 12px (0.75rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 1rem",
+    "css": "margin: 1rem;",
     "class": "m-4",
     "description": "Applies margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 1.25rem",
+    "css": "margin: 1.25rem;",
     "class": "m-5",
     "description": "Applies margin of 20px (1.25rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 1.5rem",
+    "css": "margin: 1.5rem;",
     "class": "m-6",
     "description": "Applies margin of 24px (1.5rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 2rem",
+    "css": "margin: 2rem;",
     "class": "m-8",
     "description": "Applies margin of 32px (2rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 2.5rem",
+    "css": "margin: 2.5rem;",
     "class": "m-10",
     "description": "Applies margin of 40px (2.5rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 3rem",
+    "css": "margin: 3rem;",
     "class": "m-12",
     "description": "Applies margin of 48px (3rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: 4rem",
+    "css": "margin: 4rem;",
     "class": "m-16",
     "description": "Applies margin of 64px (4rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin: auto",
+    "css": "margin: auto;",
     "class": "m-auto",
     "description": "Applies auto margin on all sides",
     "category": "Spacing"
   },
   {
-    "css": "margin-top: 1rem",
+    "css": "margin-top: 1rem;",
     "class": "mt-4",
     "description": "Applies top margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin-bottom: 1rem",
+    "css": "margin-bottom: 1rem;",
     "class": "mb-4",
     "description": "Applies bottom margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin-left: 1rem",
+    "css": "margin-left: 1rem;",
     "class": "ml-4",
     "description": "Applies left margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin-right: 1rem",
+    "css": "margin-right: 1rem;",
     "class": "mr-4",
     "description": "Applies right margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin-left: 1rem; margin-right: 1rem",
+    "css": "margin-left: 1rem; margin-right: 1rem;",
     "class": "mx-4",
     "description": "Applies horizontal margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin-top: 1rem; margin-bottom: 1rem",
+    "css": "margin-top: 1rem; margin-bottom: 1rem;",
     "class": "my-4",
     "description": "Applies vertical margin of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "margin-left: auto; margin-right: auto",
+    "css": "margin-left: auto; margin-right: auto;",
     "class": "mx-auto",
     "description": "Centers element horizontally with auto margins",
     "category": "Spacing"
   },
   {
-    "css": "margin-top: auto",
+    "css": "margin-top: auto;",
     "class": "mt-auto",
     "description": "Applies auto top margin",
     "category": "Spacing"
   },
   {
-    "css": "padding: 0",
+    "css": "padding: 0;",
     "class": "p-0",
     "description": "Removes all padding",
     "category": "Spacing"
   },
   {
-    "css": "padding: 0.25rem",
+    "css": "padding: 0.25rem;",
     "class": "p-1",
     "description": "Applies padding of 4px (0.25rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 0.5rem",
+    "css": "padding: 0.5rem;",
     "class": "p-2",
     "description": "Applies padding of 8px (0.5rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 0.75rem",
+    "css": "padding: 0.75rem;",
     "class": "p-3",
     "description": "Applies padding of 12px (0.75rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 1rem",
+    "css": "padding: 1rem;",
     "class": "p-4",
     "description": "Applies padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 1.25rem",
+    "css": "padding: 1.25rem;",
     "class": "p-5",
     "description": "Applies padding of 20px (1.25rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 1.5rem",
+    "css": "padding: 1.5rem;",
     "class": "p-6",
     "description": "Applies padding of 24px (1.5rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 2rem",
+    "css": "padding: 2rem;",
     "class": "p-8",
     "description": "Applies padding of 32px (2rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 2.5rem",
+    "css": "padding: 2.5rem;",
     "class": "p-10",
     "description": "Applies padding of 40px (2.5rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 3rem",
+    "css": "padding: 3rem;",
     "class": "p-12",
     "description": "Applies padding of 48px (3rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding: 4rem",
+    "css": "padding: 4rem;",
     "class": "p-16",
     "description": "Applies padding of 64px (4rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding-top: 1rem",
+    "css": "padding-top: 1rem;",
     "class": "pt-4",
     "description": "Applies top padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding-bottom: 1rem",
+    "css": "padding-bottom: 1rem;",
     "class": "pb-4",
     "description": "Applies bottom padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding-left: 1rem",
+    "css": "padding-left: 1rem;",
     "class": "pl-4",
     "description": "Applies left padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding-right: 1rem",
+    "css": "padding-right: 1rem;",
     "class": "pr-4",
     "description": "Applies right padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding-left: 1rem; padding-right: 1rem",
+    "css": "padding-left: 1rem; padding-right: 1rem;",
     "class": "px-4",
     "description": "Applies horizontal padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "padding-top: 1rem; padding-bottom: 1rem",
+    "css": "padding-top: 1rem; padding-bottom: 1rem;",
     "class": "py-4",
     "description": "Applies vertical padding of 16px (1rem)",
     "category": "Spacing"
   },
   {
-    "css": "gap: 0.25rem",
+    "css": "gap: 0.25rem;",
     "class": "gap-1",
     "description": "Sets grid/flex gap to 4px",
     "category": "Spacing"
   },
   {
-    "css": "gap: 0.5rem",
+    "css": "gap: 0.5rem;",
     "class": "gap-2",
     "description": "Sets grid/flex gap to 8px",
     "category": "Spacing"
   },
   {
-    "css": "gap: 1rem",
+    "css": "gap: 1rem;",
     "class": "gap-4",
     "description": "Sets grid/flex gap to 16px",
     "category": "Spacing"
   },
   {
-    "css": "gap: 1.5rem",
+    "css": "gap: 1.5rem;",
     "class": "gap-6",
     "description": "Sets grid/flex gap to 24px",
     "category": "Spacing"
   },
   {
-    "css": "gap: 2rem",
+    "css": "gap: 2rem;",
     "class": "gap-8",
     "description": "Sets grid/flex gap to 32px",
     "category": "Spacing"
   },
   {
-    "css": "column-gap: 1rem",
+    "css": "column-gap: 1rem;",
     "class": "gap-x-4",
     "description": "Sets horizontal gap to 16px",
     "category": "Spacing"
   },
   {
-    "css": "row-gap: 1rem",
+    "css": "row-gap: 1rem;",
     "class": "gap-y-4",
     "description": "Sets vertical gap to 16px",
     "category": "Spacing"
   },
   {
-    "css": "space-x: 1rem",
+    "css": "space-x: 1rem;",
     "class": "space-x-4",
     "description": "Adds 16px horizontal spacing between children",
     "category": "Spacing"
   },
   {
-    "css": "space-y: 1rem",
+    "css": "space-y: 1rem;",
     "class": "space-y-4",
     "description": "Adds 16px vertical spacing between children",
     "category": "Spacing"
   },
 
   {
-    "css": "display: flex",
+    "css": "display: flex;",
     "class": "flex",
     "description": "Sets display to flex",
     "category": "Flexbox"
   },
   {
-    "css": "display: inline-flex",
+    "css": "display: inline-flex;",
     "class": "inline-flex",
     "description": "Sets display to inline-flex",
     "category": "Flexbox"
   },
   {
-    "css": "flex-direction: row",
+    "css": "flex-direction: row;",
     "class": "flex-row",
     "description": "Sets flex direction to row (horizontal)",
     "category": "Flexbox"
   },
   {
-    "css": "flex-direction: row-reverse",
+    "css": "flex-direction: row-reverse;",
     "class": "flex-row-reverse",
     "description": "Sets flex direction to reversed row",
     "category": "Flexbox"
   },
   {
-    "css": "flex-direction: column",
+    "css": "flex-direction: column;",
     "class": "flex-col",
     "description": "Sets flex direction to column (vertical)",
     "category": "Flexbox"
   },
   {
-    "css": "flex-direction: column-reverse",
+    "css": "flex-direction: column-reverse;",
     "class": "flex-col-reverse",
     "description": "Sets flex direction to reversed column",
     "category": "Flexbox"
   },
   {
-    "css": "flex-wrap: wrap",
+    "css": "flex-wrap: wrap;",
     "class": "flex-wrap",
     "description": "Allows flex items to wrap",
     "category": "Flexbox"
   },
   {
-    "css": "flex-wrap: nowrap",
+    "css": "flex-wrap: nowrap;",
     "class": "flex-nowrap",
     "description": "Prevents flex items from wrapping",
     "category": "Flexbox"
   },
   {
-    "css": "flex-wrap: wrap-reverse",
+    "css": "flex-wrap: wrap-reverse;",
     "class": "flex-wrap-reverse",
     "description": "Wraps flex items in reverse direction",
     "category": "Flexbox"
   },
   {
-    "css": "justify-content: flex-start",
+    "css": "justify-content: flex-start;",
     "class": "justify-start",
     "description": "Aligns flex items to the start of the main axis",
     "category": "Flexbox"
   },
   {
-    "css": "justify-content: flex-end",
+    "css": "justify-content: flex-end;",
     "class": "justify-end",
     "description": "Aligns flex items to the end of the main axis",
     "category": "Flexbox"
   },
   {
-    "css": "justify-content: center",
+    "css": "justify-content: center;",
     "class": "justify-center",
     "description": "Centers flex items on the main axis",
     "category": "Flexbox"
   },
   {
-    "css": "justify-content: space-between",
+    "css": "justify-content: space-between;",
     "class": "justify-between",
     "description": "Distributes flex items with equal space between",
     "category": "Flexbox"
   },
   {
-    "css": "justify-content: space-around",
+    "css": "justify-content: space-around;",
     "class": "justify-around",
     "description": "Distributes flex items with equal space around",
     "category": "Flexbox"
   },
   {
-    "css": "justify-content: space-evenly",
+    "css": "justify-content: space-evenly;",
     "class": "justify-evenly",
     "description": "Distributes flex items with equal space between and around",
     "category": "Flexbox"
   },
   {
-    "css": "align-items: flex-start",
+    "css": "align-items: flex-start;",
     "class": "items-start",
     "description": "Aligns flex items to the start of the cross axis",
     "category": "Flexbox"
   },
   {
-    "css": "align-items: flex-end",
+    "css": "align-items: flex-end;",
     "class": "items-end",
     "description": "Aligns flex items to the end of the cross axis",
     "category": "Flexbox"
   },
   {
-    "css": "align-items: center",
+    "css": "align-items: center;",
     "class": "items-center",
     "description": "Centers flex items on the cross axis",
     "category": "Flexbox"
   },
   {
-    "css": "align-items: baseline",
+    "css": "align-items: baseline;",
     "class": "items-baseline",
     "description": "Aligns flex items along their baseline",
     "category": "Flexbox"
   },
   {
-    "css": "align-items: stretch",
+    "css": "align-items: stretch;",
     "class": "items-stretch",
     "description": "Stretches flex items to fill the cross axis",
     "category": "Flexbox"
   },
   {
-    "css": "align-self: auto",
+    "css": "align-self: auto;",
     "class": "self-auto",
     "description": "Sets individual flex item alignment to auto",
     "category": "Flexbox"
   },
   {
-    "css": "align-self: flex-start",
+    "css": "align-self: flex-start;",
     "class": "self-start",
     "description": "Aligns individual flex item to start",
     "category": "Flexbox"
   },
   {
-    "css": "align-self: flex-end",
+    "css": "align-self: flex-end;",
     "class": "self-end",
     "description": "Aligns individual flex item to end",
     "category": "Flexbox"
   },
   {
-    "css": "align-self: center",
+    "css": "align-self: center;",
     "class": "self-center",
     "description": "Centers individual flex item on cross axis",
     "category": "Flexbox"
   },
   {
-    "css": "align-self: stretch",
+    "css": "align-self: stretch;",
     "class": "self-stretch",
     "description": "Stretches individual flex item to fill cross axis",
     "category": "Flexbox"
   },
   {
-    "css": "flex: 1 1 0%",
+    "css": "flex: 1 1 0%;",
     "class": "flex-1",
     "description": "Allows flex item to grow and shrink as needed",
     "category": "Flexbox"
   },
   {
-    "css": "flex: 1 1 auto",
+    "css": "flex: 1 1 auto;",
     "class": "flex-auto",
     "description": "Allows flex item to grow and shrink based on size",
     "category": "Flexbox"
   },
   {
-    "css": "flex: none",
+    "css": "flex: none;",
     "class": "flex-none",
     "description": "Prevents flex item from growing or shrinking",
     "category": "Flexbox"
   },
   {
-    "css": "flex-grow: 1",
+    "css": "flex-grow: 1;",
     "class": "grow",
     "description": "Allows flex item to grow",
     "category": "Flexbox"
   },
   {
-    "css": "flex-grow: 0",
+    "css": "flex-grow: 0;",
     "class": "grow-0",
     "description": "Prevents flex item from growing",
     "category": "Flexbox"
   },
   {
-    "css": "flex-shrink: 1",
+    "css": "flex-shrink: 1;",
     "class": "shrink",
     "description": "Allows flex item to shrink",
     "category": "Flexbox"
   },
   {
-    "css": "flex-shrink: 0",
+    "css": "flex-shrink: 0;",
     "class": "shrink-0",
     "description": "Prevents flex item from shrinking",
     "category": "Flexbox"
   },
   {
-    "css": "order: -9999",
+    "css": "order: -9999;",
     "class": "order-first",
     "description": "Places flex/grid item first",
     "category": "Flexbox"
   },
   {
-    "css": "order: 9999",
+    "css": "order: 9999;",
     "class": "order-last",
     "description": "Places flex/grid item last",
     "category": "Flexbox"
   },
   {
-    "css": "order: 0",
+    "css": "order: 0;",
     "class": "order-none",
     "description": "Resets flex/grid item order",
     "category": "Flexbox"
   },
 
   {
-    "css": "display: grid",
+    "css": "display: grid;",
     "class": "grid",
     "description": "Sets display to grid",
     "category": "Grid"
   },
   {
-    "css": "display: inline-grid",
+    "css": "display: inline-grid;",
     "class": "inline-grid",
     "description": "Sets display to inline-grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: repeat(1, minmax(0, 1fr))",
+    "css": "grid-template-columns: repeat(1, minmax(0, 1fr));",
     "class": "grid-cols-1",
     "description": "Creates a 1-column grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: repeat(2, minmax(0, 1fr))",
+    "css": "grid-template-columns: repeat(2, minmax(0, 1fr));",
     "class": "grid-cols-2",
     "description": "Creates a 2-column grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: repeat(3, minmax(0, 1fr))",
+    "css": "grid-template-columns: repeat(3, minmax(0, 1fr));",
     "class": "grid-cols-3",
     "description": "Creates a 3-column grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: repeat(4, minmax(0, 1fr))",
+    "css": "grid-template-columns: repeat(4, minmax(0, 1fr));",
     "class": "grid-cols-4",
     "description": "Creates a 4-column grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: repeat(6, minmax(0, 1fr))",
+    "css": "grid-template-columns: repeat(6, minmax(0, 1fr));",
     "class": "grid-cols-6",
     "description": "Creates a 6-column grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: repeat(12, minmax(0, 1fr))",
+    "css": "grid-template-columns: repeat(12, minmax(0, 1fr));",
     "class": "grid-cols-12",
     "description": "Creates a 12-column grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-columns: none",
+    "css": "grid-template-columns: none;",
     "class": "grid-cols-none",
     "description": "Removes explicit column definitions",
     "category": "Grid"
   },
   {
-    "css": "grid-template-rows: repeat(1, minmax(0, 1fr))",
+    "css": "grid-template-rows: repeat(1, minmax(0, 1fr));",
     "class": "grid-rows-1",
     "description": "Creates a 1-row grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-rows: repeat(2, minmax(0, 1fr))",
+    "css": "grid-template-rows: repeat(2, minmax(0, 1fr));",
     "class": "grid-rows-2",
     "description": "Creates a 2-row grid",
     "category": "Grid"
   },
   {
-    "css": "grid-template-rows: repeat(3, minmax(0, 1fr))",
+    "css": "grid-template-rows: repeat(3, minmax(0, 1fr));",
     "class": "grid-rows-3",
     "description": "Creates a 3-row grid",
     "category": "Grid"
   },
   {
-    "css": "grid-column: span 1 / span 1",
+    "css": "grid-column: span 1 / span 1;",
     "class": "col-span-1",
     "description": "Makes grid item span 1 column",
     "category": "Grid"
   },
   {
-    "css": "grid-column: span 2 / span 2",
+    "css": "grid-column: span 2 / span 2;",
     "class": "col-span-2",
     "description": "Makes grid item span 2 columns",
     "category": "Grid"
   },
   {
-    "css": "grid-column: span 3 / span 3",
+    "css": "grid-column: span 3 / span 3;",
     "class": "col-span-3",
     "description": "Makes grid item span 3 columns",
     "category": "Grid"
   },
   {
-    "css": "grid-column: span 4 / span 4",
+    "css": "grid-column: span 4 / span 4;",
     "class": "col-span-4",
     "description": "Makes grid item span 4 columns",
     "category": "Grid"
   },
   {
-    "css": "grid-column: span 6 / span 6",
+    "css": "grid-column: span 6 / span 6;",
     "class": "col-span-6",
     "description": "Makes grid item span 6 columns",
     "category": "Grid"
   },
   {
-    "css": "grid-column: 1 / -1",
+    "css": "grid-column: 1 / -1;",
     "class": "col-span-full",
     "description": "Makes grid item span all columns",
     "category": "Grid"
   },
   {
-    "css": "grid-row: span 1 / span 1",
+    "css": "grid-row: span 1 / span 1;",
     "class": "row-span-1",
     "description": "Makes grid item span 1 row",
     "category": "Grid"
   },
   {
-    "css": "grid-row: span 2 / span 2",
+    "css": "grid-row: span 2 / span 2;",
     "class": "row-span-2",
     "description": "Makes grid item span 2 rows",
     "category": "Grid"
   },
   {
-    "css": "grid-row: span 3 / span 3",
+    "css": "grid-row: span 3 / span 3;",
     "class": "row-span-3",
     "description": "Makes grid item span 3 rows",
     "category": "Grid"
   },
   {
-    "css": "grid-auto-flow: row",
+    "css": "grid-auto-flow: row;",
     "class": "grid-flow-row",
     "description": "Places grid items in rows",
     "category": "Grid"
   },
   {
-    "css": "grid-auto-flow: column",
+    "css": "grid-auto-flow: column;",
     "class": "grid-flow-col",
     "description": "Places grid items in columns",
     "category": "Grid"
   },
   {
-    "css": "grid-auto-flow: dense",
+    "css": "grid-auto-flow: dense;",
     "class": "grid-flow-dense",
     "description": "Fills in gaps in the grid with smaller items",
     "category": "Grid"
   },
 
   {
-    "css": "width: 0",
+    "css": "width: 0;",
     "class": "w-0",
     "description": "Sets width to 0",
     "category": "Sizing"
   },
   {
-    "css": "width: 0.25rem",
+    "css": "width: 0.25rem;",
     "class": "w-1",
     "description": "Sets width to 4px (0.25rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 0.5rem",
+    "css": "width: 0.5rem;",
     "class": "w-2",
     "description": "Sets width to 8px (0.5rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 1rem",
+    "css": "width: 1rem;",
     "class": "w-4",
     "description": "Sets width to 16px (1rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 1.5rem",
+    "css": "width: 1.5rem;",
     "class": "w-6",
     "description": "Sets width to 24px (1.5rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 2rem",
+    "css": "width: 2rem;",
     "class": "w-8",
     "description": "Sets width to 32px (2rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 3rem",
+    "css": "width: 3rem;",
     "class": "w-12",
     "description": "Sets width to 48px (3rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 4rem",
+    "css": "width: 4rem;",
     "class": "w-16",
     "description": "Sets width to 64px (4rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 5rem",
+    "css": "width: 5rem;",
     "class": "w-20",
     "description": "Sets width to 80px (5rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 6rem",
+    "css": "width: 6rem;",
     "class": "w-24",
     "description": "Sets width to 96px (6rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 8rem",
+    "css": "width: 8rem;",
     "class": "w-32",
     "description": "Sets width to 128px (8rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 16rem",
+    "css": "width: 16rem;",
     "class": "w-64",
     "description": "Sets width to 256px (16rem)",
     "category": "Sizing"
   },
   {
-    "css": "width: 100%",
+    "css": "width: 100%;",
     "class": "w-full",
     "description": "Sets width to 100%",
     "category": "Sizing"
   },
   {
-    "css": "width: 50%",
+    "css": "width: 50%;",
     "class": "w-1/2",
     "description": "Sets width to 50%",
     "category": "Sizing"
   },
   {
-    "css": "width: 33.333333%",
+    "css": "width: 33.333333%;",
     "class": "w-1/3",
     "description": "Sets width to 33.33%",
     "category": "Sizing"
   },
   {
-    "css": "width: 66.666667%",
+    "css": "width: 66.666667%;",
     "class": "w-2/3",
     "description": "Sets width to 66.67%",
     "category": "Sizing"
   },
   {
-    "css": "width: 25%",
+    "css": "width: 25%;",
     "class": "w-1/4",
     "description": "Sets width to 25%",
     "category": "Sizing"
   },
   {
-    "css": "width: 75%",
+    "css": "width: 75%;",
     "class": "w-3/4",
     "description": "Sets width to 75%",
     "category": "Sizing"
   },
   {
-    "css": "width: auto",
+    "css": "width: auto;",
     "class": "w-auto",
     "description": "Sets width to auto",
     "category": "Sizing"
   },
   {
-    "css": "width: 100vw",
+    "css": "width: 100vw;",
     "class": "w-screen",
     "description": "Sets width to 100% of viewport width",
     "category": "Sizing"
   },
   {
-    "css": "min-width: 0",
+    "css": "min-width: 0;",
     "class": "min-w-0",
     "description": "Sets minimum width to 0",
     "category": "Sizing"
   },
   {
-    "css": "min-width: 100%",
+    "css": "min-width: 100%;",
     "class": "min-w-full",
     "description": "Sets minimum width to 100%",
     "category": "Sizing"
   },
   {
-    "css": "max-width: none",
+    "css": "max-width: none;",
     "class": "max-w-none",
     "description": "Removes maximum width constraint",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 20rem",
+    "css": "max-width: 20rem;",
     "class": "max-w-xs",
     "description": "Sets maximum width to 320px (20rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 24rem",
+    "css": "max-width: 24rem;",
     "class": "max-w-sm",
     "description": "Sets maximum width to 384px (24rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 28rem",
+    "css": "max-width: 28rem;",
     "class": "max-w-md",
     "description": "Sets maximum width to 448px (28rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 32rem",
+    "css": "max-width: 32rem;",
     "class": "max-w-lg",
     "description": "Sets maximum width to 512px (32rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 36rem",
+    "css": "max-width: 36rem;",
     "class": "max-w-xl",
     "description": "Sets maximum width to 576px (36rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 42rem",
+    "css": "max-width: 42rem;",
     "class": "max-w-2xl",
     "description": "Sets maximum width to 672px (42rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 48rem",
+    "css": "max-width: 48rem;",
     "class": "max-w-3xl",
     "description": "Sets maximum width to 768px (48rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 56rem",
+    "css": "max-width: 56rem;",
     "class": "max-w-4xl",
     "description": "Sets maximum width to 896px (56rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 64rem",
+    "css": "max-width: 64rem;",
     "class": "max-w-5xl",
     "description": "Sets maximum width to 1024px (64rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 72rem",
+    "css": "max-width: 72rem;",
     "class": "max-w-6xl",
     "description": "Sets maximum width to 1152px (72rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 80rem",
+    "css": "max-width: 80rem;",
     "class": "max-w-7xl",
     "description": "Sets maximum width to 1280px (80rem)",
     "category": "Sizing"
   },
   {
-    "css": "max-width: 100%",
+    "css": "max-width: 100%;",
     "class": "max-w-full",
     "description": "Sets maximum width to 100%",
     "category": "Sizing"
   },
   {
-    "css": "height: 0",
+    "css": "height: 0;",
     "class": "h-0",
     "description": "Sets height to 0",
     "category": "Sizing"
   },
   {
-    "css": "height: 0.25rem",
+    "css": "height: 0.25rem;",
     "class": "h-1",
     "description": "Sets height to 4px (0.25rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 0.5rem",
+    "css": "height: 0.5rem;",
     "class": "h-2",
     "description": "Sets height to 8px (0.5rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 1rem",
+    "css": "height: 1rem;",
     "class": "h-4",
     "description": "Sets height to 16px (1rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 1.5rem",
+    "css": "height: 1.5rem;",
     "class": "h-6",
     "description": "Sets height to 24px (1.5rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 2rem",
+    "css": "height: 2rem;",
     "class": "h-8",
     "description": "Sets height to 32px (2rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 3rem",
+    "css": "height: 3rem;",
     "class": "h-12",
     "description": "Sets height to 48px (3rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 4rem",
+    "css": "height: 4rem;",
     "class": "h-16",
     "description": "Sets height to 64px (4rem)",
     "category": "Sizing"
   },
   {
-    "css": "height: 100%",
+    "css": "height: 100%;",
     "class": "h-full",
     "description": "Sets height to 100%",
     "category": "Sizing"
   },
   {
-    "css": "height: 100vh",
+    "css": "height: 100vh;",
     "class": "h-screen",
     "description": "Sets height to 100% of viewport height",
     "category": "Sizing"
   },
   {
-    "css": "height: auto",
+    "css": "height: auto;",
     "class": "h-auto",
     "description": "Sets height to auto",
     "category": "Sizing"
   },
   {
-    "css": "min-height: 0",
+    "css": "min-height: 0;",
     "class": "min-h-0",
     "description": "Sets minimum height to 0",
     "category": "Sizing"
   },
   {
-    "css": "min-height: 100%",
+    "css": "min-height: 100%;",
     "class": "min-h-full",
     "description": "Sets minimum height to 100%",
     "category": "Sizing"
   },
   {
-    "css": "min-height: 100vh",
+    "css": "min-height: 100vh;",
     "class": "min-h-screen",
     "description": "Sets minimum height to 100vh",
     "category": "Sizing"
   },
   {
-    "css": "max-height: none",
+    "css": "max-height: none;",
     "class": "max-h-none",
     "description": "Removes maximum height constraint",
     "category": "Sizing"
   },
   {
-    "css": "max-height: 100%",
+    "css": "max-height: 100%;",
     "class": "max-h-full",
     "description": "Sets maximum height to 100%",
     "category": "Sizing"
   },
   {
-    "css": "max-height: 100vh",
+    "css": "max-height: 100vh;",
     "class": "max-h-screen",
     "description": "Sets maximum height to 100vh",
     "category": "Sizing"
   },
 
   {
-    "css": "background-color: transparent",
+    "css": "background-color: transparent;",
     "class": "bg-transparent",
     "description": "Sets background to transparent",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(255 255 255)",
+    "css": "background-color: rgb(255 255 255);",
     "class": "bg-white",
     "description": "Sets background to white",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(0 0 0)",
+    "css": "background-color: rgb(0 0 0);",
     "class": "bg-black",
     "description": "Sets background to black",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(239 246 255)",
+    "css": "background-color: rgb(239 246 255);",
     "class": "bg-blue-50",
     "description": "Sets background to very light blue",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(219 234 254)",
+    "css": "background-color: rgb(219 234 254);",
     "class": "bg-blue-100",
     "description": "Sets background to light blue",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(59 130 246)",
+    "css": "background-color: rgb(59 130 246);",
     "class": "bg-blue-500",
     "description": "Sets background to medium blue",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(37 99 235)",
+    "css": "background-color: rgb(37 99 235);",
     "class": "bg-blue-600",
     "description": "Sets background to darker blue",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(29 78 216)",
+    "css": "background-color: rgb(29 78 216);",
     "class": "bg-blue-700",
     "description": "Sets background to dark blue",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(239 68 68)",
+    "css": "background-color: rgb(239 68 68);",
     "class": "bg-red-500",
     "description": "Sets background to medium red",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(34 197 94)",
+    "css": "background-color: rgb(34 197 94);",
     "class": "bg-green-500",
     "description": "Sets background to medium green",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(234 179 8)",
+    "css": "background-color: rgb(234 179 8);",
     "class": "bg-yellow-500",
     "description": "Sets background to medium yellow",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(249 115 22)",
+    "css": "background-color: rgb(249 115 22);",
     "class": "bg-orange-500",
     "description": "Sets background to medium orange",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(168 85 247)",
+    "css": "background-color: rgb(168 85 247);",
     "class": "bg-purple-500",
     "description": "Sets background to medium purple",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(236 72 153)",
+    "css": "background-color: rgb(236 72 153);",
     "class": "bg-pink-500",
     "description": "Sets background to medium pink",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(107 114 128)",
+    "css": "background-color: rgb(107 114 128);",
     "class": "bg-gray-500",
     "description": "Sets background to medium gray",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(243 244 246)",
+    "css": "background-color: rgb(243 244 246);",
     "class": "bg-gray-100",
     "description": "Sets background to very light gray",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(229 231 235)",
+    "css": "background-color: rgb(229 231 235);",
     "class": "bg-gray-200",
     "description": "Sets background to light gray",
     "category": "Background"
   },
   {
-    "css": "background-color: rgb(17 24 39)",
+    "css": "background-color: rgb(17 24 39);",
     "class": "bg-gray-900",
     "description": "Sets background to near-black gray",
     "category": "Background"
   },
   {
-    "css": "background-size: cover",
+    "css": "background-size: cover;",
     "class": "bg-cover",
     "description": "Scales background image to cover the element",
     "category": "Background"
   },
   {
-    "css": "background-size: contain",
+    "css": "background-size: contain;",
     "class": "bg-contain",
     "description": "Scales background image to fit inside the element",
     "category": "Background"
   },
   {
-    "css": "background-size: auto",
+    "css": "background-size: auto;",
     "class": "bg-auto",
     "description": "Sets background image to auto size",
     "category": "Background"
   },
   {
-    "css": "background-position: center",
+    "css": "background-position: center;",
     "class": "bg-center",
     "description": "Centers background image",
     "category": "Background"
   },
   {
-    "css": "background-position: top",
+    "css": "background-position: top;",
     "class": "bg-top",
     "description": "Positions background image at top",
     "category": "Background"
   },
   {
-    "css": "background-position: bottom",
+    "css": "background-position: bottom;",
     "class": "bg-bottom",
     "description": "Positions background image at bottom",
     "category": "Background"
   },
   {
-    "css": "background-position: left",
+    "css": "background-position: left;",
     "class": "bg-left",
     "description": "Positions background image at left",
     "category": "Background"
   },
   {
-    "css": "background-position: right",
+    "css": "background-position: right;",
     "class": "bg-right",
     "description": "Positions background image at right",
     "category": "Background"
   },
   {
-    "css": "background-repeat: no-repeat",
+    "css": "background-repeat: no-repeat;",
     "class": "bg-no-repeat",
     "description": "Prevents background image from repeating",
     "category": "Background"
   },
   {
-    "css": "background-repeat: repeat",
+    "css": "background-repeat: repeat;",
     "class": "bg-repeat",
     "description": "Tiles background image in both directions",
     "category": "Background"
   },
   {
-    "css": "background-repeat: repeat-x",
+    "css": "background-repeat: repeat-x;",
     "class": "bg-repeat-x",
     "description": "Tiles background image horizontally",
     "category": "Background"
   },
   {
-    "css": "background-repeat: repeat-y",
+    "css": "background-repeat: repeat-y;",
     "class": "bg-repeat-y",
     "description": "Tiles background image vertically",
     "category": "Background"
   },
   {
-    "css": "background-attachment: fixed",
+    "css": "background-attachment: fixed;",
     "class": "bg-fixed",
     "description": "Fixes background image relative to viewport",
     "category": "Background"
   },
   {
-    "css": "background-attachment: local",
+    "css": "background-attachment: local;",
     "class": "bg-local",
     "description": "Scrolls background image with element content",
     "category": "Background"
   },
   {
-    "css": "background-attachment: scroll",
+    "css": "background-attachment: scroll;",
     "class": "bg-scroll",
     "description": "Scrolls background image with element",
     "category": "Background"
   },
 
   {
-    "css": "border-radius: 0",
+    "css": "border-radius: 0;",
     "class": "rounded-none",
     "description": "Removes border radius",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 0.125rem",
+    "css": "border-radius: 0.125rem;",
     "class": "rounded-sm",
     "description": "Applies small border radius (2px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 0.25rem",
+    "css": "border-radius: 0.25rem;",
     "class": "rounded",
     "description": "Applies default border radius (4px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 0.375rem",
+    "css": "border-radius: 0.375rem;",
     "class": "rounded-md",
     "description": "Applies medium border radius (6px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 0.5rem",
+    "css": "border-radius: 0.5rem;",
     "class": "rounded-lg",
     "description": "Applies large border radius (8px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 0.75rem",
+    "css": "border-radius: 0.75rem;",
     "class": "rounded-xl",
     "description": "Applies extra-large border radius (12px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 1rem",
+    "css": "border-radius: 1rem;",
     "class": "rounded-2xl",
     "description": "Applies 2xl border radius (16px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 1.5rem",
+    "css": "border-radius: 1.5rem;",
     "class": "rounded-3xl",
     "description": "Applies 3xl border radius (24px)",
     "category": "Borders"
   },
   {
-    "css": "border-radius: 9999px",
+    "css": "border-radius: 9999px;",
     "class": "rounded-full",
     "description": "Applies fully rounded corners (pill/circle shape)",
     "category": "Borders"
   },
   {
-    "css": "border-width: 0",
+    "css": "border-width: 0;",
     "class": "border-0",
     "description": "Removes all borders",
     "category": "Borders"
   },
   {
-    "css": "border-width: 1px",
+    "css": "border-width: 1px;",
     "class": "border",
     "description": "Applies 1px border on all sides",
     "category": "Borders"
   },
   {
-    "css": "border-width: 2px",
+    "css": "border-width: 2px;",
     "class": "border-2",
     "description": "Applies 2px border on all sides",
     "category": "Borders"
   },
   {
-    "css": "border-width: 4px",
+    "css": "border-width: 4px;",
     "class": "border-4",
     "description": "Applies 4px border on all sides",
     "category": "Borders"
   },
   {
-    "css": "border-width: 8px",
+    "css": "border-width: 8px;",
     "class": "border-8",
     "description": "Applies 8px border on all sides",
     "category": "Borders"
   },
   {
-    "css": "border-top-width: 1px",
+    "css": "border-top-width: 1px;",
     "class": "border-t",
     "description": "Applies 1px top border",
     "category": "Borders"
   },
   {
-    "css": "border-bottom-width: 1px",
+    "css": "border-bottom-width: 1px;",
     "class": "border-b",
     "description": "Applies 1px bottom border",
     "category": "Borders"
   },
   {
-    "css": "border-left-width: 1px",
+    "css": "border-left-width: 1px;",
     "class": "border-l",
     "description": "Applies 1px left border",
     "category": "Borders"
   },
   {
-    "css": "border-right-width: 1px",
+    "css": "border-right-width: 1px;",
     "class": "border-r",
     "description": "Applies 1px right border",
     "category": "Borders"
   },
   {
-    "css": "border-style: solid",
+    "css": "border-style: solid;",
     "class": "border-solid",
     "description": "Sets border style to solid",
     "category": "Borders"
   },
   {
-    "css": "border-style: dashed",
+    "css": "border-style: dashed;",
     "class": "border-dashed",
     "description": "Sets border style to dashed",
     "category": "Borders"
   },
   {
-    "css": "border-style: dotted",
+    "css": "border-style: dotted;",
     "class": "border-dotted",
     "description": "Sets border style to dotted",
     "category": "Borders"
   },
   {
-    "css": "border-style: double",
+    "css": "border-style: double;",
     "class": "border-double",
     "description": "Sets border style to double",
     "category": "Borders"
   },
   {
-    "css": "border-style: hidden",
+    "css": "border-style: hidden;",
     "class": "border-hidden",
     "description": "Hides the border",
     "category": "Borders"
   },
   {
-    "css": "border-style: none",
+    "css": "border-style: none;",
     "class": "border-none",
     "description": "Removes border style",
     "category": "Borders"
   },
   {
-    "css": "border-color: rgb(209 213 219)",
+    "css": "border-color: rgb(209 213 219);",
     "class": "border-gray-300",
     "description": "Sets border color to light gray",
     "category": "Borders"
   },
   {
-    "css": "border-color: rgb(156 163 175)",
+    "css": "border-color: rgb(156 163 175);",
     "class": "border-gray-400",
     "description": "Sets border color to medium-light gray",
     "category": "Borders"
   },
   {
-    "css": "border-color: rgb(59 130 246)",
+    "css": "border-color: rgb(59 130 246);",
     "class": "border-blue-500",
     "description": "Sets border color to blue",
     "category": "Borders"
   },
   {
-    "css": "border-color: rgb(239 68 68)",
+    "css": "border-color: rgb(239 68 68);",
     "class": "border-red-500",
     "description": "Sets border color to red",
     "category": "Borders"
   },
   {
-    "css": "border-color: transparent",
+    "css": "border-color: transparent;",
     "class": "border-transparent",
     "description": "Sets border color to transparent",
     "category": "Borders"
   },
   {
-    "css": "outline: none",
+    "css": "outline: none;",
     "class": "outline-none",
     "description": "Removes outline (use with focus styles)",
     "category": "Borders"
   },
   {
-    "css": "outline-width: 2px",
+    "css": "outline-width: 2px;",
     "class": "outline-2",
     "description": "Sets outline width to 2px",
     "category": "Borders"
   },
   {
-    "css": "outline-style: solid",
+    "css": "outline-style: solid;",
     "class": "outline",
     "description": "Applies solid outline",
     "category": "Borders"
   },
   {
-    "css": "ring: 3px",
+    "css": "ring: 3px;",
     "class": "ring-3",
     "description": "Adds a 3px box-shadow ring",
     "category": "Borders"
   },
 
   {
-    "css": "position: static",
+    "css": "position: static;",
     "class": "static",
     "description": "Sets position to static (default)",
     "category": "Layout"
   },
   {
-    "css": "position: relative",
+    "css": "position: relative;",
     "class": "relative",
     "description": "Sets position to relative",
     "category": "Layout"
   },
   {
-    "css": "position: absolute",
+    "css": "position: absolute;",
     "class": "absolute",
     "description": "Sets position to absolute",
     "category": "Layout"
   },
   {
-    "css": "position: fixed",
+    "css": "position: fixed;",
     "class": "fixed",
     "description": "Sets position to fixed (relative to viewport)",
     "category": "Layout"
   },
   {
-    "css": "position: sticky",
+    "css": "position: sticky;",
     "class": "sticky",
     "description": "Sets position to sticky",
     "category": "Layout"
   },
   {
-    "css": "top: 0",
+    "css": "top: 0;",
     "class": "top-0",
     "description": "Sets top position to 0",
     "category": "Layout"
   },
   {
-    "css": "top: 0.25rem",
+    "css": "top: 0.25rem;",
     "class": "top-1",
     "description": "Sets top position to 4px",
     "category": "Layout"
   },
   {
-    "css": "top: 1rem",
+    "css": "top: 1rem;",
     "class": "top-4",
     "description": "Sets top position to 16px",
     "category": "Layout"
   },
   {
-    "css": "top: 50%",
+    "css": "top: 50%;",
     "class": "top-1/2",
     "description": "Sets top position to 50%",
     "category": "Layout"
   },
   {
-    "css": "top: auto",
+    "css": "top: auto;",
     "class": "top-auto",
     "description": "Sets top position to auto",
     "category": "Layout"
   },
   {
-    "css": "right: 0",
+    "css": "right: 0;",
     "class": "right-0",
     "description": "Sets right position to 0",
     "category": "Layout"
   },
   {
-    "css": "bottom: 0",
+    "css": "bottom: 0;",
     "class": "bottom-0",
     "description": "Sets bottom position to 0",
     "category": "Layout"
   },
   {
-    "css": "left: 0",
+    "css": "left: 0;",
     "class": "left-0",
     "description": "Sets left position to 0",
     "category": "Layout"
   },
   {
-    "css": "left: 50%",
+    "css": "left: 50%;",
     "class": "left-1/2",
     "description": "Sets left position to 50%",
     "category": "Layout"
   },
   {
-    "css": "inset: 0",
+    "css": "inset: 0;",
     "class": "inset-0",
     "description": "Sets top, right, bottom, left to 0",
     "category": "Layout"
   },
   {
-    "css": "inset: auto",
+    "css": "inset: auto;",
     "class": "inset-auto",
     "description": "Sets all inset values to auto",
     "category": "Layout"
   },
   {
-    "css": "z-index: 0",
+    "css": "z-index: 0;",
     "class": "z-0",
     "description": "Sets z-index to 0",
     "category": "Layout"
   },
   {
-    "css": "z-index: 10",
+    "css": "z-index: 10;",
     "class": "z-10",
     "description": "Sets z-index to 10",
     "category": "Layout"
   },
   {
-    "css": "z-index: 20",
+    "css": "z-index: 20;",
     "class": "z-20",
     "description": "Sets z-index to 20",
     "category": "Layout"
   },
   {
-    "css": "z-index: 30",
+    "css": "z-index: 30;",
     "class": "z-30",
     "description": "Sets z-index to 30",
     "category": "Layout"
   },
   {
-    "css": "z-index: 40",
+    "css": "z-index: 40;",
     "class": "z-40",
     "description": "Sets z-index to 40",
     "category": "Layout"
   },
   {
-    "css": "z-index: 50",
+    "css": "z-index: 50;",
     "class": "z-50",
     "description": "Sets z-index to 50",
     "category": "Layout"
   },
   {
-    "css": "z-index: auto",
+    "css": "z-index: auto;",
     "class": "z-auto",
     "description": "Sets z-index to auto",
     "category": "Layout"
   },
   {
-    "css": "display: block",
+    "css": "display: block;",
     "class": "block",
     "description": "Sets display to block",
     "category": "Layout"
   },
   {
-    "css": "display: inline-block",
+    "css": "display: inline-block;",
     "class": "inline-block",
     "description": "Sets display to inline-block",
     "category": "Layout"
   },
   {
-    "css": "display: inline",
+    "css": "display: inline;",
     "class": "inline",
     "description": "Sets display to inline",
     "category": "Layout"
   },
   {
-    "css": "display: none",
+    "css": "display: none;",
     "class": "hidden",
     "description": "Hides the element (display: none)",
     "category": "Layout"
   },
   {
-    "css": "display: table",
+    "css": "display: table;",
     "class": "table",
     "description": "Sets display to table",
     "category": "Layout"
   },
   {
-    "css": "display: table-cell",
+    "css": "display: table-cell;",
     "class": "table-cell",
     "description": "Sets display to table-cell",
     "category": "Layout"
   },
   {
-    "css": "display: table-row",
+    "css": "display: table-row;",
     "class": "table-row",
     "description": "Sets display to table-row",
     "category": "Layout"
   },
   {
-    "css": "overflow: auto",
+    "css": "overflow: auto;",
     "class": "overflow-auto",
     "description": "Adds scrollbar when content overflows",
     "category": "Layout"
   },
   {
-    "css": "overflow: hidden",
+    "css": "overflow: hidden;",
     "class": "overflow-hidden",
     "description": "Hides overflowing content",
     "category": "Layout"
   },
   {
-    "css": "overflow: visible",
+    "css": "overflow: visible;",
     "class": "overflow-visible",
     "description": "Shows overflowing content",
     "category": "Layout"
   },
   {
-    "css": "overflow: scroll",
+    "css": "overflow: scroll;",
     "class": "overflow-scroll",
     "description": "Always shows scrollbars",
     "category": "Layout"
   },
   {
-    "css": "overflow-x: auto",
+    "css": "overflow-x: auto;",
     "class": "overflow-x-auto",
     "description": "Adds horizontal scrollbar when needed",
     "category": "Layout"
   },
   {
-    "css": "overflow-y: auto",
+    "css": "overflow-y: auto;",
     "class": "overflow-y-auto",
     "description": "Adds vertical scrollbar when needed",
     "category": "Layout"
   },
   {
-    "css": "overflow-x: hidden",
+    "css": "overflow-x: hidden;",
     "class": "overflow-x-hidden",
     "description": "Hides horizontal overflow",
     "category": "Layout"
   },
   {
-    "css": "overflow-y: hidden",
+    "css": "overflow-y: hidden;",
     "class": "overflow-y-hidden",
     "description": "Hides vertical overflow",
     "category": "Layout"
   },
   {
-    "css": "float: left",
+    "css": "float: left;",
     "class": "float-left",
     "description": "Floats element to the left",
     "category": "Layout"
   },
   {
-    "css": "float: right",
+    "css": "float: right;",
     "class": "float-right",
     "description": "Floats element to the right",
     "category": "Layout"
   },
   {
-    "css": "float: none",
+    "css": "float: none;",
     "class": "float-none",
     "description": "Removes float from element",
     "category": "Layout"
   },
   {
-    "css": "clear: left",
+    "css": "clear: left;",
     "class": "clear-left",
     "description": "Clears left floats",
     "category": "Layout"
   },
   {
-    "css": "clear: right",
+    "css": "clear: right;",
     "class": "clear-right",
     "description": "Clears right floats",
     "category": "Layout"
   },
   {
-    "css": "clear: both",
+    "css": "clear: both;",
     "class": "clear-both",
     "description": "Clears floats on both sides",
     "category": "Layout"
   },
   {
-    "css": "visibility: visible",
+    "css": "visibility: visible;",
     "class": "visible",
     "description": "Makes element visible",
     "category": "Layout"
   },
   {
-    "css": "visibility: hidden",
+    "css": "visibility: hidden;",
     "class": "invisible",
     "description": "Hides element while keeping its space",
     "category": "Layout"
   },
 
   {
-    "css": "color: rgb(17 24 39)",
+    "css": "color: rgb(17 24 39);",
     "class": "text-gray-900",
     "description": "Sets text color to near-black gray",
     "category": "Color"
   },
   {
-    "css": "color: rgb(107 114 128)",
+    "css": "color: rgb(107 114 128);",
     "class": "text-gray-500",
     "description": "Sets text color to medium gray",
     "category": "Color"
   },
   {
-    "css": "color: rgb(156 163 175)",
+    "css": "color: rgb(156 163 175);",
     "class": "text-gray-400",
     "description": "Sets text color to light gray",
     "category": "Color"
   },
   {
-    "css": "color: rgb(255 255 255)",
+    "css": "color: rgb(255 255 255);",
     "class": "text-white",
     "description": "Sets text color to white",
     "category": "Color"
   },
   {
-    "css": "color: rgb(0 0 0)",
+    "css": "color: rgb(0 0 0);",
     "class": "text-black",
     "description": "Sets text color to black",
     "category": "Color"
   },
   {
-    "css": "color: rgb(59 130 246)",
+    "css": "color: rgb(59 130 246);",
     "class": "text-blue-500",
     "description": "Sets text color to medium blue",
     "category": "Color"
   },
   {
-    "css": "color: rgb(37 99 235)",
+    "css": "color: rgb(37 99 235);",
     "class": "text-blue-600",
     "description": "Sets text color to darker blue",
     "category": "Color"
   },
   {
-    "css": "color: rgb(239 68 68)",
+    "css": "color: rgb(239 68 68);",
     "class": "text-red-500",
     "description": "Sets text color to medium red",
     "category": "Color"
   },
   {
-    "css": "color: rgb(185 28 28)",
+    "css": "color: rgb(185 28 28);",
     "class": "text-red-700",
     "description": "Sets text color to dark red",
     "category": "Color"
   },
   {
-    "css": "color: rgb(34 197 94)",
+    "css": "color: rgb(34 197 94);",
     "class": "text-green-500",
     "description": "Sets text color to medium green",
     "category": "Color"
   },
   {
-    "css": "color: rgb(21 128 61)",
+    "css": "color: rgb(21 128 61);",
     "class": "text-green-700",
     "description": "Sets text color to dark green",
     "category": "Color"
   },
   {
-    "css": "color: rgb(234 179 8)",
+    "css": "color: rgb(234 179 8);",
     "class": "text-yellow-500",
     "description": "Sets text color to medium yellow",
     "category": "Color"
   },
   {
-    "css": "color: rgb(168 85 247)",
+    "css": "color: rgb(168 85 247);",
     "class": "text-purple-500",
     "description": "Sets text color to medium purple",
     "category": "Color"
   },
   {
-    "css": "color: rgb(236 72 153)",
+    "css": "color: rgb(236 72 153);",
     "class": "text-pink-500",
     "description": "Sets text color to medium pink",
     "category": "Color"
   },
   {
-    "css": "color: rgb(249 115 22)",
+    "css": "color: rgb(249 115 22);",
     "class": "text-orange-500",
     "description": "Sets text color to medium orange",
     "category": "Color"
   },
   {
-    "css": "color: transparent",
+    "css": "color: transparent;",
     "class": "text-transparent",
     "description": "Sets text color to transparent",
     "category": "Color"
   },
   {
-    "css": "color: inherit",
+    "css": "color: inherit;",
     "class": "text-inherit",
     "description": "Inherits text color from parent",
     "category": "Color"
   },
   {
-    "css": "color: currentColor",
+    "css": "color: currentColor;",
     "class": "text-current",
     "description": "Sets text color to current color value",
     "category": "Color"
   },
 
   {
-    "css": "box-shadow: none",
+    "css": "box-shadow: none;",
     "class": "shadow-none",
     "description": "Removes box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05)",
+    "css": "box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);",
     "class": "shadow-sm",
     "description": "Applies small box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+    "css": "box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);",
     "class": "shadow",
     "description": "Applies default box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+    "css": "box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);",
     "class": "shadow-md",
     "description": "Applies medium box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+    "css": "box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);",
     "class": "shadow-lg",
     "description": "Applies large box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+    "css": "box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);",
     "class": "shadow-xl",
     "description": "Applies extra-large box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25)",
+    "css": "box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);",
     "class": "shadow-2xl",
     "description": "Applies 2xl box shadow",
     "category": "Effects"
   },
   {
-    "css": "box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+    "css": "box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);",
     "class": "shadow-inner",
     "description": "Applies inset box shadow",
     "category": "Effects"
   },
   {
-    "css": "opacity: 0",
+    "css": "opacity: 0;",
     "class": "opacity-0",
     "description": "Sets opacity to 0 (invisible)",
     "category": "Effects"
   },
   {
-    "css": "opacity: 0.25",
+    "css": "opacity: 0.25;",
     "class": "opacity-25",
     "description": "Sets opacity to 25%",
     "category": "Effects"
   },
   {
-    "css": "opacity: 0.5",
+    "css": "opacity: 0.5;",
     "class": "opacity-50",
     "description": "Sets opacity to 50%",
     "category": "Effects"
   },
   {
-    "css": "opacity: 0.75",
+    "css": "opacity: 0.75;",
     "class": "opacity-75",
     "description": "Sets opacity to 75%",
     "category": "Effects"
   },
   {
-    "css": "opacity: 1",
+    "css": "opacity: 1;",
     "class": "opacity-100",
     "description": "Sets opacity to 100% (fully visible)",
     "category": "Effects"
   },
   {
-    "css": "mix-blend-mode: normal",
+    "css": "mix-blend-mode: normal;",
     "class": "mix-blend-normal",
     "description": "Sets blend mode to normal",
     "category": "Effects"
   },
   {
-    "css": "mix-blend-mode: multiply",
+    "css": "mix-blend-mode: multiply;",
     "class": "mix-blend-multiply",
     "description": "Multiplies element colors with background",
     "category": "Effects"
   },
   {
-    "css": "mix-blend-mode: screen",
+    "css": "mix-blend-mode: screen;",
     "class": "mix-blend-screen",
     "description": "Applies screen blend mode",
     "category": "Effects"
   },
   {
-    "css": "mix-blend-mode: overlay",
+    "css": "mix-blend-mode: overlay;",
     "class": "mix-blend-overlay",
     "description": "Applies overlay blend mode",
     "category": "Effects"
   },
   {
-    "css": "filter: blur(4px)",
+    "css": "filter: blur(4px);",
     "class": "blur",
     "description": "Applies default blur filter",
     "category": "Effects"
   },
   {
-    "css": "filter: blur(0)",
+    "css": "filter: blur(0);",
     "class": "blur-none",
     "description": "Removes blur filter",
     "category": "Effects"
   },
   {
-    "css": "filter: blur(8px)",
+    "css": "filter: blur(8px);",
     "class": "blur-sm",
     "description": "Applies small blur filter",
     "category": "Effects"
   },
   {
-    "css": "filter: blur(12px)",
+    "css": "filter: blur(12px);",
     "class": "blur-md",
     "description": "Applies medium blur filter",
     "category": "Effects"
   },
   {
-    "css": "filter: blur(16px)",
+    "css": "filter: blur(16px);",
     "class": "blur-lg",
     "description": "Applies large blur filter",
     "category": "Effects"
   },
   {
-    "css": "filter: blur(24px)",
+    "css": "filter: blur(24px);",
     "class": "blur-xl",
     "description": "Applies extra-large blur filter",
     "category": "Effects"
   },
   {
-    "css": "filter: brightness(0)",
+    "css": "filter: brightness(0);",
     "class": "brightness-0",
     "description": "Sets brightness to 0 (black)",
     "category": "Effects"
   },
   {
-    "css": "filter: brightness(0.5)",
+    "css": "filter: brightness(0.5);",
     "class": "brightness-50",
     "description": "Reduces brightness to 50%",
     "category": "Effects"
   },
   {
-    "css": "filter: brightness(1)",
+    "css": "filter: brightness(1);",
     "class": "brightness-100",
     "description": "Sets brightness to normal",
     "category": "Effects"
   },
   {
-    "css": "filter: brightness(1.25)",
+    "css": "filter: brightness(1.25);",
     "class": "brightness-125",
     "description": "Increases brightness to 125%",
     "category": "Effects"
   },
   {
-    "css": "filter: grayscale(1)",
+    "css": "filter: grayscale(1);",
     "class": "grayscale",
     "description": "Converts element to grayscale",
     "category": "Effects"
   },
   {
-    "css": "filter: grayscale(0)",
+    "css": "filter: grayscale(0);",
     "class": "grayscale-0",
     "description": "Removes grayscale filter",
     "category": "Effects"
   },
   {
-    "css": "filter: invert(1)",
+    "css": "filter: invert(1);",
     "class": "invert",
     "description": "Inverts element colors",
     "category": "Effects"
   },
   {
-    "css": "filter: saturate(0)",
+    "css": "filter: saturate(0);",
     "class": "saturate-0",
     "description": "Removes all color saturation",
     "category": "Effects"
   },
   {
-    "css": "filter: saturate(1)",
+    "css": "filter: saturate(1);",
     "class": "saturate-100",
     "description": "Sets saturation to normal",
     "category": "Effects"
   },
   {
-    "css": "filter: saturate(2)",
+    "css": "filter: saturate(2);",
     "class": "saturate-200",
     "description": "Doubles color saturation",
     "category": "Effects"
   },
 
   {
-    "css": "transition-property: all",
+    "css": "transition-property: all;",
     "class": "transition-all",
     "description": "Enables transition on all properties",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter",
+    "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;",
     "class": "transition",
     "description": "Enables transition on common properties",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke",
+    "css": "transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;",
     "class": "transition-colors",
     "description": "Enables transition on color properties",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-property: opacity",
+    "css": "transition-property: opacity;",
     "class": "transition-opacity",
     "description": "Enables transition on opacity",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-property: transform",
+    "css": "transition-property: transform;",
     "class": "transition-transform",
     "description": "Enables transition on transform",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-property: none",
+    "css": "transition-property: none;",
     "class": "transition-none",
     "description": "Disables all transitions",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 75ms",
+    "css": "transition-duration: 75ms;",
     "class": "duration-75",
     "description": "Sets transition duration to 75ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 100ms",
+    "css": "transition-duration: 100ms;",
     "class": "duration-100",
     "description": "Sets transition duration to 100ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 150ms",
+    "css": "transition-duration: 150ms;",
     "class": "duration-150",
     "description": "Sets transition duration to 150ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 200ms",
+    "css": "transition-duration: 200ms;",
     "class": "duration-200",
     "description": "Sets transition duration to 200ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 300ms",
+    "css": "transition-duration: 300ms;",
     "class": "duration-300",
     "description": "Sets transition duration to 300ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 500ms",
+    "css": "transition-duration: 500ms;",
     "class": "duration-500",
     "description": "Sets transition duration to 500ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 700ms",
+    "css": "transition-duration: 700ms;",
     "class": "duration-700",
     "description": "Sets transition duration to 700ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-duration: 1000ms",
+    "css": "transition-duration: 1000ms;",
     "class": "duration-1000",
     "description": "Sets transition duration to 1000ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-timing-function: linear",
+    "css": "transition-timing-function: linear;",
     "class": "ease-linear",
     "description": "Uses linear timing for transitions",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-timing-function: cubic-bezier(0.4, 0, 1, 1)",
+    "css": "transition-timing-function: cubic-bezier(0.4, 0, 1, 1);",
     "class": "ease-in",
     "description": "Uses ease-in timing for transitions",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-timing-function: cubic-bezier(0, 0, 0.2, 1)",
+    "css": "transition-timing-function: cubic-bezier(0, 0, 0.2, 1);",
     "class": "ease-out",
     "description": "Uses ease-out timing for transitions",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)",
+    "css": "transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);",
     "class": "ease-in-out",
     "description": "Uses ease-in-out timing for transitions",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-delay: 75ms",
+    "css": "transition-delay: 75ms;",
     "class": "delay-75",
     "description": "Sets transition delay to 75ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-delay: 150ms",
+    "css": "transition-delay: 150ms;",
     "class": "delay-150",
     "description": "Sets transition delay to 150ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-delay: 300ms",
+    "css": "transition-delay: 300ms;",
     "class": "delay-300",
     "description": "Sets transition delay to 300ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "transition-delay: 500ms",
+    "css": "transition-delay: 500ms;",
     "class": "delay-500",
     "description": "Sets transition delay to 500ms",
     "category": "Transitions & Animation"
   },
   {
-    "css": "animation: spin 1s linear infinite",
+    "css": "animation: spin 1s linear infinite;",
     "class": "animate-spin",
     "description": "Continuously rotates element (spinner)",
     "category": "Transitions & Animation"
   },
   {
-    "css": "animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
+    "css": "animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;",
     "class": "animate-ping",
     "description": "Scales and fades element (ping effect)",
     "category": "Transitions & Animation"
   },
   {
-    "css": "animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+    "css": "animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;",
     "class": "animate-pulse",
     "description": "Pulses element opacity (skeleton loading)",
     "category": "Transitions & Animation"
   },
   {
-    "css": "animation: bounce 1s infinite",
+    "css": "animation: bounce 1s infinite;",
     "class": "animate-bounce",
     "description": "Makes element bounce up and down",
     "category": "Transitions & Animation"
   },
   {
-    "css": "animation: none",
+    "css": "animation: none;",
     "class": "animate-none",
     "description": "Removes all animations",
     "category": "Transitions & Animation"
   },
 
   {
-    "css": "transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1)",
+    "css": "transform: translateX(0) translateY(0) rotate(0) skewX(0) skewY(0) scaleX(1) scaleY(1);",
     "class": "transform-none",
     "description": "Resets all transforms",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateX(0.25rem)",
+    "css": "transform: translateX(0.25rem);",
     "class": "translate-x-1",
     "description": "Translates element 4px on X axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateX(1rem)",
+    "css": "transform: translateX(1rem);",
     "class": "translate-x-4",
     "description": "Translates element 16px on X axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateX(50%)",
+    "css": "transform: translateX(50%);",
     "class": "translate-x-1/2",
     "description": "Translates element 50% of its width on X axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateX(-50%)",
+    "css": "transform: translateX(-50%);",
     "class": "-translate-x-1/2",
     "description": "Translates element -50% of its width on X axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateY(0.25rem)",
+    "css": "transform: translateY(0.25rem);",
     "class": "translate-y-1",
     "description": "Translates element 4px on Y axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateY(1rem)",
+    "css": "transform: translateY(1rem);",
     "class": "translate-y-4",
     "description": "Translates element 16px on Y axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateY(50%)",
+    "css": "transform: translateY(50%);",
     "class": "translate-y-1/2",
     "description": "Translates element 50% of its height on Y axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: translateY(-50%)",
+    "css": "transform: translateY(-50%);",
     "class": "-translate-y-1/2",
     "description": "Translates element -50% of its height on Y axis",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(0deg)",
+    "css": "transform: rotate(0deg);",
     "class": "rotate-0",
     "description": "Rotates element by 0 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(1deg)",
+    "css": "transform: rotate(1deg);",
     "class": "rotate-1",
     "description": "Rotates element by 1 degree",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(3deg)",
+    "css": "transform: rotate(3deg);",
     "class": "rotate-3",
     "description": "Rotates element by 3 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(6deg)",
+    "css": "transform: rotate(6deg);",
     "class": "rotate-6",
     "description": "Rotates element by 6 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(12deg)",
+    "css": "transform: rotate(12deg);",
     "class": "rotate-12",
     "description": "Rotates element by 12 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(45deg)",
+    "css": "transform: rotate(45deg);",
     "class": "rotate-45",
     "description": "Rotates element by 45 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(90deg)",
+    "css": "transform: rotate(90deg);",
     "class": "rotate-90",
     "description": "Rotates element by 90 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(180deg)",
+    "css": "transform: rotate(180deg);",
     "class": "rotate-180",
     "description": "Rotates element by 180 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(-45deg)",
+    "css": "transform: rotate(-45deg);",
     "class": "-rotate-45",
     "description": "Rotates element by -45 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: rotate(-90deg)",
+    "css": "transform: rotate(-90deg);",
     "class": "-rotate-90",
     "description": "Rotates element by -90 degrees",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(0) scaleY(0)",
+    "css": "transform: scaleX(0) scaleY(0);",
     "class": "scale-0",
     "description": "Scales element to 0 (invisible)",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(0.5) scaleY(0.5)",
+    "css": "transform: scaleX(0.5) scaleY(0.5);",
     "class": "scale-50",
     "description": "Scales element to 50%",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(0.75) scaleY(0.75)",
+    "css": "transform: scaleX(0.75) scaleY(0.75);",
     "class": "scale-75",
     "description": "Scales element to 75%",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(0.9) scaleY(0.9)",
+    "css": "transform: scaleX(0.9) scaleY(0.9);",
     "class": "scale-90",
     "description": "Scales element to 90%",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(1) scaleY(1)",
+    "css": "transform: scaleX(1) scaleY(1);",
     "class": "scale-100",
     "description": "Scales element to 100% (normal size)",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(1.05) scaleY(1.05)",
+    "css": "transform: scaleX(1.05) scaleY(1.05);",
     "class": "scale-105",
     "description": "Scales element to 105%",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(1.1) scaleY(1.1)",
+    "css": "transform: scaleX(1.1) scaleY(1.1);",
     "class": "scale-110",
     "description": "Scales element to 110%",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(1.25) scaleY(1.25)",
+    "css": "transform: scaleX(1.25) scaleY(1.25);",
     "class": "scale-125",
     "description": "Scales element to 125%",
     "category": "Transforms"
   },
   {
-    "css": "transform: scaleX(1.5) scaleY(1.5)",
+    "css": "transform: scaleX(1.5) scaleY(1.5);",
     "class": "scale-150",
     "description": "Scales element to 150%",
     "category": "Transforms"
   },
   
   {
-    "css": "cursor: auto",
+    "css": "cursor: auto;",
     "class": "cursor-auto",
     "description": "Sets cursor to auto (browser default)",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: default",
+    "css": "cursor: default;",
     "class": "cursor-default",
     "description": "Sets cursor to default arrow",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: pointer",
+    "css": "cursor: pointer;",
     "class": "cursor-pointer",
     "description": "Sets cursor to pointer (hand)",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: wait",
+    "css": "cursor: wait;",
     "class": "cursor-wait",
     "description": "Sets cursor to wait (spinner)",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: text",
+    "css": "cursor: text;",
     "class": "cursor-text",
     "description": "Sets cursor to text selection",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: move",
+    "css": "cursor: move;",
     "class": "cursor-move",
     "description": "Sets cursor to move",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: not-allowed",
+    "css": "cursor: not-allowed;",
     "class": "cursor-not-allowed",
     "description": "Sets cursor to not-allowed (disabled)",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: grab",
+    "css": "cursor: grab;",
     "class": "cursor-grab",
     "description": "Sets cursor to grab hand",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: grabbing",
+    "css": "cursor: grabbing;",
     "class": "cursor-grabbing",
     "description": "Sets cursor to grabbing hand",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: crosshair",
+    "css": "cursor: crosshair;",
     "class": "cursor-crosshair",
     "description": "Sets cursor to crosshair",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: zoom-in",
+    "css": "cursor: zoom-in;",
     "class": "cursor-zoom-in",
     "description": "Sets cursor to zoom-in",
     "category": "Interactivity"
   },
   {
-    "css": "cursor: zoom-out",
+    "css": "cursor: zoom-out;",
     "class": "cursor-zoom-out",
     "description": "Sets cursor to zoom-out",
     "category": "Interactivity"
   },
   {
-    "css": "pointer-events: none",
+    "css": "pointer-events: none;",
     "class": "pointer-events-none",
     "description": "Disables pointer/mouse events on element",
     "category": "Interactivity"
   },
   {
-    "css": "pointer-events: auto",
+    "css": "pointer-events: auto;",
     "class": "pointer-events-auto",
     "description": "Enables pointer/mouse events on element",
     "category": "Interactivity"
   },
   {
-    "css": "user-select: none",
+    "css": "user-select: none;",
     "class": "select-none",
     "description": "Prevents text selection",
     "category": "Interactivity"
   },
   {
-    "css": "user-select: text",
+    "css": "user-select: text;",
     "class": "select-text",
     "description": "Allows text selection",
     "category": "Interactivity"
   },
   {
-    "css": "user-select: all",
+    "css": "user-select: all;",
     "class": "select-all",
     "description": "Selects all text on click",
     "category": "Interactivity"
   },
   {
-    "css": "user-select: auto",
+    "css": "user-select: auto;",
     "class": "select-auto",
     "description": "Uses browser default text selection behavior",
     "category": "Interactivity"
   },
   {
-    "css": "resize: none",
+    "css": "resize: none;",
     "class": "resize-none",
     "description": "Prevents textarea resizing",
     "category": "Interactivity"
   },
   {
-    "css": "resize: both",
+    "css": "resize: both;",
     "class": "resize",
     "description": "Allows resizing in both directions",
     "category": "Interactivity"
   },
   {
-    "css": "resize: horizontal",
+    "css": "resize: horizontal;",
     "class": "resize-x",
     "description": "Allows horizontal resizing only",
     "category": "Interactivity"
   },
   {
-    "css": "resize: vertical",
+    "css": "resize: vertical;",
     "class": "resize-y",
     "description": "Allows vertical resizing only",
     "category": "Interactivity"
   },
   {
-    "css": "scroll-behavior: smooth",
+    "css": "scroll-behavior: smooth;",
     "class": "scroll-smooth",
     "description": "Enables smooth scrolling",
     "category": "Interactivity"
   },
   {
-    "css": "scroll-behavior: auto",
+    "css": "scroll-behavior: auto;",
     "class": "scroll-auto",
     "description": "Uses instant scrolling behavior",
     "category": "Interactivity"
   },
   {
-    "css": "appearance: none",
+    "css": "appearance: none;",
     "class": "appearance-none",
     "description": "Removes native browser styling from form elements",
     "category": "Interactivity"
   },
   {
-    "css": "list-style-type: none",
+    "css": "list-style-type: none;",
     "class": "list-none",
     "description": "Removes list bullet/number markers",
     "category": "Typography"
   },
   {
-    "css": "list-style-type: disc",
+    "css": "list-style-type: disc;",
     "class": "list-disc",
     "description": "Adds disc bullet markers to list",
     "category": "Typography"
   },
   {
-    "css": "list-style-type: decimal",
+    "css": "list-style-type: decimal;",
     "class": "list-decimal",
     "description": "Adds decimal number markers to list",
     "category": "Typography"
   },
   {
-    "css": "list-style-position: inside",
+    "css": "list-style-position: inside;",
     "class": "list-inside",
     "description": "Positions list markers inside the content area",
     "category": "Typography"
   },
   {
-    "css": "list-style-position: outside",
+    "css": "list-style-position: outside;",
     "class": "list-outside",
     "description": "Positions list markers outside the content area",
     "category": "Typography"
   },
   {
-    "css": "object-fit: contain",
+    "css": "object-fit: contain;",
     "class": "object-contain",
     "description": "Scales image to fit within element while maintaining aspect ratio",
     "category": "Layout"
   },
   {
-    "css": "object-fit: cover",
+    "css": "object-fit: cover;",
     "class": "object-cover",
     "description": "Scales image to cover element while maintaining aspect ratio",
     "category": "Layout"
   },
   {
-    "css": "object-fit: fill",
+    "css": "object-fit: fill;",
     "class": "object-fill",
     "description": "Stretches image to fill element",
     "category": "Layout"
   },
   {
-    "css": "object-fit: none",
+    "css": "object-fit: none;",
     "class": "object-none",
     "description": "Renders image at its original size",
     "category": "Layout"
   },
   {
-    "css": "object-fit: scale-down",
+    "css": "object-fit: scale-down;",
     "class": "object-scale-down",
     "description": "Scales image down to fit element if needed",
     "category": "Layout"
   },
   {
-    "css": "object-position: center",
+    "css": "object-position: center;",
     "class": "object-center",
     "description": "Centers image within its container",
     "category": "Layout"
   },
   {
-    "css": "object-position: top",
+    "css": "object-position: top;",
     "class": "object-top",
     "description": "Positions image at the top of container",
     "category": "Layout"
   },
   {
-    "css": "object-position: bottom",
+    "css": "object-position: bottom;",
     "class": "object-bottom",
     "description": "Positions image at the bottom of container",
     "category": "Layout"
   },
   {
-    "css": "vertical-align: baseline",
+    "css": "vertical-align: baseline;",
     "class": "align-baseline",
     "description": "Aligns element to parent baseline",
     "category": "Layout"
   },
   {
-    "css": "vertical-align: top",
+    "css": "vertical-align: top;",
     "class": "align-top",
     "description": "Aligns element to top of line",
     "category": "Layout"
   },
   {
-    "css": "vertical-align: middle",
+    "css": "vertical-align: middle;",
     "class": "align-middle",
     "description": "Aligns element to middle of line",
     "category": "Layout"
   },
   {
-    "css": "vertical-align: bottom",
+    "css": "vertical-align: bottom;",
     "class": "align-bottom",
     "description": "Aligns element to bottom of line",
     "category": "Layout"
   },
   {
-    "css": "vertical-align: text-top",
+    "css": "vertical-align: text-top;",
     "class": "align-text-top",
     "description": "Aligns element to top of parent font",
     "category": "Layout"
   },
   {
-    "css": "vertical-align: text-bottom",
+    "css": "vertical-align: text-bottom;",
     "class": "align-text-bottom",
     "description": "Aligns element to bottom of parent font",
     "category": "Layout"
   },
   {
-    "css": "table-layout: auto",
+    "css": "table-layout: auto;",
     "class": "table-auto",
     "description": "Sets table layout to auto (column widths fit content)",
     "category": "Layout"
   },
   {
-    "css": "table-layout: fixed",
+    "css": "table-layout: fixed;",
     "class": "table-fixed",
     "description": "Sets table layout to fixed (equal column widths)",
     "category": "Layout"
   },
   {
-    "css": "border-collapse: collapse",
+    "css": "border-collapse: collapse;",
     "class": "border-collapse",
     "description": "Collapses table borders into single borders",
     "category": "Borders"
   },
   {
-    "css": "border-collapse: separate",
+    "css": "border-collapse: separate;",
     "class": "border-separate",
     "description": "Separates table cell borders",
     "category": "Borders"
   },
   {
-    "css": "aspect-ratio: auto",
+    "css": "aspect-ratio: auto;",
     "class": "aspect-auto",
     "description": "Sets aspect ratio to auto",
     "category": "Sizing"
   },
   {
-    "css": "aspect-ratio: 1 / 1",
+    "css": "aspect-ratio: 1 / 1;",
     "class": "aspect-square",
     "description": "Forces element into a 1:1 square ratio",
     "category": "Sizing"
   },
   {
-    "css": "aspect-ratio: 16 / 9",
+    "css": "aspect-ratio: 16 / 9;",
     "class": "aspect-video",
     "description": "Forces element into 16:9 video ratio",
     "category": "Sizing"
   },
   {
-    "css": "columns: 1",
+    "css": "columns: 1;",
     "class": "columns-1",
     "description": "Sets element to 1 column",
     "category": "Layout"
   },
   {
-    "css": "columns: 2",
+    "css": "columns: 2;",
     "class": "columns-2",
     "description": "Sets element to 2 columns",
     "category": "Layout"
   },
   {
-    "css": "columns: 3",
+    "css": "columns: 3;",
     "class": "columns-3",
     "description": "Sets element to 3 columns",
     "category": "Layout"
   },
   {
-    "css": "break-after: auto",
+    "css": "break-after: auto;",
     "class": "break-after-auto",
     "description": "Auto column/page break after element",
     "category": "Layout"
   },
   {
-    "css": "break-before: auto",
+    "css": "break-before: auto;",
     "class": "break-before-auto",
     "description": "Auto column/page break before element",
     "category": "Layout"
   },
   {
-    "css": "break-inside: avoid",
+    "css": "break-inside: avoid;",
     "class": "break-inside-avoid",
     "description": "Avoids column/page break inside element",
     "category": "Layout"
   },
   {
-    "css": "backdrop-filter: blur(4px)",
+    "css": "backdrop-filter: blur(4px);",
     "class": "backdrop-blur",
     "description": "Applies blur to element backdrop",
     "category": "Effects"
   },
   {
-    "css": "backdrop-filter: blur(8px)",
+    "css": "backdrop-filter: blur(8px);",
     "class": "backdrop-blur-sm",
     "description": "Applies small blur to element backdrop",
     "category": "Effects"
   },
   {
-    "css": "backdrop-filter: blur(12px)",
+    "css": "backdrop-filter: blur(12px);",
     "class": "backdrop-blur-md",
     "description": "Applies medium blur to element backdrop",
     "category": "Effects"
   },
   {
-    "css": "backdrop-filter: blur(16px)",
+    "css": "backdrop-filter: blur(16px);",
     "class": "backdrop-blur-lg",
     "description": "Applies large blur to element backdrop",
     "category": "Effects"
   },
   {
-    "css": "backdrop-filter: brightness(0.5)",
+    "css": "backdrop-filter: brightness(0.5);",
     "class": "backdrop-brightness-50",
     "description": "Reduces backdrop brightness to 50%",
     "category": "Effects"
   },
   {
-    "css": "backdrop-filter: brightness(1)",
+    "css": "backdrop-filter: brightness(1);",
     "class": "backdrop-brightness-100",
     "description": "Sets backdrop brightness to normal",
     "category": "Effects"
   },
   {
-    "css": "backdrop-filter: grayscale(1)",
+    "css": "backdrop-filter: grayscale(1);",
     "class": "backdrop-grayscale",
     "description": "Converts backdrop to grayscale",
     "category": "Effects"
   },
   {
-    "css": "accent-color: auto",
+    "css": "accent-color: auto;",
     "class": "accent-auto",
     "description": "Uses browser default accent color for form elements",
     "category": "Interactivity"
   },
   {
-    "css": "touch-action: auto",
+    "css": "touch-action: auto;",
     "class": "touch-auto",
     "description": "Enables default touch behaviors",
     "category": "Interactivity"
   },
   {
-    "css": "touch-action: none",
+    "css": "touch-action: none;",
     "class": "touch-none",
     "description": "Disables all touch behaviors",
     "category": "Interactivity"
   },
   {
-    "css": "touch-action: pan-x",
+    "css": "touch-action: pan-x;",
     "class": "touch-pan-x",
     "description": "Enables horizontal panning only",
     "category": "Interactivity"
   },
   {
-    "css": "touch-action: pan-y",
+    "css": "touch-action: pan-y;",
     "class": "touch-pan-y",
     "description": "Enables vertical panning only",
     "category": "Interactivity"
   },
   {
-    "css": "will-change: auto",
+    "css": "will-change: auto;",
     "class": "will-change-auto",
     "description": "Uses default will-change behavior",
     "category": "Effects"
   },
   {
-    "css": "will-change: transform",
+    "css": "will-change: transform;",
     "class": "will-change-transform",
     "description": "Hints browser to optimize transform changes",
     "category": "Effects"
   },
   {
-    "css": "will-change: opacity",
+    "css": "will-change: opacity;",
     "class": "will-change-opacity",
     "description": "Hints browser to optimize opacity changes",
     "category": "Effects"
   },
   {
-    "css": "content: none",
+    "css": "content: none;",
     "class": "content-none",
     "description": "Sets content property to none (used with pseudo-elements)",
     "category": "Layout"
   },
   {
-    "css": "box-sizing: border-box",
+    "css": "box-sizing: border-box;",
     "class": "box-border",
     "description": "Includes padding and border in element's total size",
     "category": "Layout"
   },
   {
-    "css": "box-sizing: content-box",
+    "css": "box-sizing: content-box;",
     "class": "box-content",
     "description": "Excludes padding and border from element's total size",
     "category": "Layout"
   },
   {
-    "css": "isolation: isolate",
+    "css": "isolation: isolate;",
     "class": "isolate",
     "description": "Creates a new stacking context",
     "category": "Effects"
   },
   {
-    "css": "isolation: auto",
+    "css": "isolation: auto;",
     "class": "isolation-auto",
     "description": "Uses default stacking context behavior",
     "category": "Effects"
   },
   {
-    "css": "text-overflow: ellipsis",
+    "css": "text-overflow: ellipsis;",
     "class": "text-ellipsis",
     "description": "Truncates overflowing text with an ellipsis",
     "category": "Typography"
   },
   {
-    "css": "text-overflow: clip",
+    "css": "text-overflow: clip;",
     "class": "text-clip",
     "description": "Clips overflowing text without ellipsis",
     "category": "Typography"
   },
   {
-    "css": "hyphens: none",
+    "css": "hyphens: none;",
     "class": "hyphens-none",
     "description": "Disables automatic hyphenation",
     "category": "Typography"
   },
   {
-    "css": "hyphens: manual",
+    "css": "hyphens: manual;",
     "class": "hyphens-manual",
     "description": "Uses manual hyphenation only",
     "category": "Typography"
   },
   {
-    "css": "hyphens: auto",
+    "css": "hyphens: auto;",
     "class": "hyphens-auto",
     "description": "Enables automatic hyphenation",
     "category": "Typography"
   },
   {
-    "css": "font-variant-numeric: normal",
+    "css": "font-variant-numeric: normal;",
     "class": "normal-nums",
     "description": "Uses normal numeric font variant",
     "category": "Typography"
   },
   {
-    "css": "font-variant-numeric: ordinal",
+    "css": "font-variant-numeric: ordinal;",
     "class": "ordinal",
     "description": "Uses ordinal numeric font variant (1st, 2nd)",
     "category": "Typography"
   },
   {
-    "css": "font-variant-numeric: tabular-nums",
+    "css": "font-variant-numeric: tabular-nums;",
     "class": "tabular-nums",
     "description": "Uses tabular numeric font variant (fixed-width digits)",
     "category": "Typography"
   },
   {
-    "css": "text-indent: 0",
+    "css": "text-indent: 0;",
     "class": "indent-0",
     "description": "Removes text indentation",
     "category": "Typography"
   },
   {
-    "css": "text-indent: 1rem",
+    "css": "text-indent: 1rem;",
     "class": "indent-4",
     "description": "Indents first line of text by 16px",
     "category": "Typography"
   },
   {
-    "css": "text-indent: 2rem",
+    "css": "text-indent: 2rem;",
     "class": "indent-8",
     "description": "Indents first line of text by 32px",
     "category": "Typography"

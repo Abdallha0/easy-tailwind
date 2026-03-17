@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="min-h-screen min-w-screen text-white bg-gradient-to-r from-[#1e1e1e] via-[#001a3d] to-[#1e1e1e] bg-cover">
+<body class="min-h-screen min-w-screen text-white bg-gradient-to-r from-[#1e1e1e] via-[#01224e] to-[#1e1e1e] bg-cover">
     <header class="p-4 w-full flex gap-4 items-center">
         <div class="size-[30px]">
             <img src="./images/tailwind-logo.png" class="w-full h-full" alt="">
@@ -20,9 +20,9 @@
 
     <section class="w-full h-[calc(100vh-1rem)] flex justify-center items-center">
         <div class="container size-full flex justify-center items-center relative">
-            <div class="size-[250px] scale-150 rounded-full bg-[#730096] blur-3xl absolute"></div>
+            <div class="size-[250px] scale-150 rounded-full bg-[#730096] blur-3xl absolute hidden"></div>
             <h2
-                class="absolute top-8 text-5xl capitalize font-medium text-[#0bcae4] text-center typewriter ease-in-out">
+                class="absolute top-8 text-5xl capitalize font-bold text-[#0bcae4] text-center typewriter ease-linear">
                 Convert
                 Css <br /> <span class="text-3xl mt-1">to Tailwind</span>
             </h2>
@@ -68,11 +68,11 @@
     <section id="content-sec" class="w-full h-fit p-4">
         <div class="w-fit m-auto text-center">
             <h2 class="text-3xl fade-up">
-                Most Used
+                Tailwind Classes
             </h2>
-            <div class="p-1 scale-x-150 border-b-[1px] animate-[line_1s_forwards] border-[#0bcae4]"></div>
+            <div class="p-1 hidden scale-x-150 border-b-[1px] animate-[line_1s_forwards] border-[#0bcae4]"></div>
         </div>
-        <div id="content-container" class="flex justify-evenly gap-x-2 gap-y-10 flex-wrap p-4 mt-8">
+        <div id="content-container" class="flex justify-evenly gap-x-4 gap-y-10 flex-wrap p-4 mt-8">
         </div>
 
         <div class="flex items-center justify-center px-4 py-6 sm:px-6">
@@ -126,6 +126,7 @@
             </div>
         </div>
     </section>
+
     <script src="./js/main.js"></script>
     <script src="./js/maping.js"></script>
 </body>

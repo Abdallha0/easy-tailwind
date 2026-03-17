@@ -7,7 +7,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 let currentPage = 1;
-let totalPages = 27; // Example: replace with API response or dataset length
+let totalPages = Math.ceil(522 / 20);
 document.addEventListener("DOMContentLoaded", () => {
     const prevBtn = document.getElementById("prev");
     const nextBtn = document.getElementById("next");
@@ -85,3 +85,24 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initial render
     renderPagination();
 });
+
+function checkCssRegex(value) {
+    const cssPropertyRegex = /^[a-zA-Z-]+:\s*[^;]+;?$/;
+    if (!cssPropertyRegex.test(value)) {
+        return { ok: false, value: "wrong css formating" }
+    }
+
+    let splitValue = value.split('');
+
+    // check from space after colon
+    let getColonIndex = splitValue.indexOf(':')
+    if (splitValue[getColonIndex + 1] !== " ") {
+        splitValue.splice(getColonIndex + 1, 0, " ");
+        return { ok: true, value: splitValue.join("") }
+    }
+
+    return {
+        ok: true,
+        value,
+    }
+}
