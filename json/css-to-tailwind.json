@@ -632,6 +632,1957 @@
   },
 
   {
+    "css": "text-shadow: 0 1px 2px rgba(0,0,0,0.5)",
+    "class": "drop-shadow-sm",
+    "description": "Applies small drop shadow via filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05))",
+    "class": "drop-shadow-sm",
+    "description": "Applies small drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06))",
+    "class": "drop-shadow",
+    "description": "Applies default drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06))",
+    "class": "drop-shadow-md",
+    "description": "Applies medium drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1))",
+    "class": "drop-shadow-lg",
+    "description": "Applies large drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08))",
+    "class": "drop-shadow-xl",
+    "description": "Applies extra-large drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15))",
+    "class": "drop-shadow-2xl",
+    "description": "Applies 2xl drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "filter: drop-shadow(0 0 #0000)",
+    "class": "drop-shadow-none",
+    "description": "Removes drop shadow filter",
+    "category": "Drop Shadow"
+  },
+  {
+    "css": "stroke: currentColor",
+    "class": "stroke-current",
+    "description": "Sets SVG stroke to current text color",
+    "category": "SVG"
+  },
+  {
+    "css": "stroke: none",
+    "class": "stroke-none",
+    "description": "Removes SVG stroke",
+    "category": "SVG"
+  },
+  {
+    "css": "stroke-width: 0",
+    "class": "stroke-0",
+    "description": "Sets SVG stroke width to 0",
+    "category": "SVG"
+  },
+  {
+    "css": "stroke-width: 1",
+    "class": "stroke-1",
+    "description": "Sets SVG stroke width to 1",
+    "category": "SVG"
+  },
+  {
+    "css": "stroke-width: 2",
+    "class": "stroke-2",
+    "description": "Sets SVG stroke width to 2",
+    "category": "SVG"
+  },
+  {
+    "css": "fill: currentColor",
+    "class": "fill-current",
+    "description": "Sets SVG fill to current text color",
+    "category": "SVG"
+  },
+  {
+    "css": "fill: none",
+    "class": "fill-none",
+    "description": "Removes SVG fill",
+    "category": "SVG"
+  },
+  {
+    "css": "fill: rgb(255 255 255)",
+    "class": "fill-white",
+    "description": "Sets SVG fill to white",
+    "category": "SVG"
+  },
+  {
+    "css": "fill: rgb(0 0 0)",
+    "class": "fill-black",
+    "description": "Sets SVG fill to black",
+    "category": "SVG"
+  },
+  {
+    "css": "fill: transparent",
+    "class": "fill-transparent",
+    "description": "Sets SVG fill to transparent",
+    "category": "SVG"
+  },
+  {
+    "css": "caret-color: transparent",
+    "class": "caret-transparent",
+    "description": "Makes the text input caret invisible",
+    "category": "Interactivity"
+  },
+  {
+    "css": "caret-color: currentColor",
+    "class": "caret-current",
+    "description": "Sets caret color to current text color",
+    "category": "Interactivity"
+  },
+  {
+    "css": "caret-color: rgb(59 130 246)",
+    "class": "caret-blue-500",
+    "description": "Sets caret color to blue-500",
+    "category": "Interactivity"
+  },
+  {
+    "css": "caret-color: rgb(239 68 68)",
+    "class": "caret-red-500",
+    "description": "Sets caret color to red-500",
+    "category": "Interactivity"
+  },
+  {
+    "css": "accent-color: rgb(59 130 246)",
+    "class": "accent-blue-500",
+    "description": "Sets form element accent color to blue-500",
+    "category": "Interactivity"
+  },
+  {
+    "css": "accent-color: rgb(239 68 68)",
+    "class": "accent-red-500",
+    "description": "Sets form element accent color to red-500",
+    "category": "Interactivity"
+  },
+  {
+    "css": "accent-color: rgb(34 197 94)",
+    "class": "accent-green-500",
+    "description": "Sets form element accent color to green-500",
+    "category": "Interactivity"
+  },
+  {
+    "css": "outline-color: rgb(59 130 246)",
+    "class": "outline-blue-500",
+    "description": "Sets outline color to blue-500",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-color: rgb(239 68 68)",
+    "class": "outline-red-500",
+    "description": "Sets outline color to red-500",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-offset: 0px",
+    "class": "outline-offset-0",
+    "description": "Sets outline offset to 0px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-offset: 1px",
+    "class": "outline-offset-1",
+    "description": "Sets outline offset to 1px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-offset: 2px",
+    "class": "outline-offset-2",
+    "description": "Sets outline offset to 2px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-offset: 4px",
+    "class": "outline-offset-4",
+    "description": "Sets outline offset to 4px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-offset: 8px",
+    "class": "outline-offset-8",
+    "description": "Sets outline offset to 8px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-style: dashed",
+    "class": "outline-dashed",
+    "description": "Sets outline style to dashed",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-style: dotted",
+    "class": "outline-dotted",
+    "description": "Sets outline style to dotted",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-style: double",
+    "class": "outline-double",
+    "description": "Sets outline style to double",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-width: 0px",
+    "class": "outline-0",
+    "description": "Sets outline width to 0px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-width: 1px",
+    "class": "outline-1",
+    "description": "Sets outline width to 1px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-width: 4px",
+    "class": "outline-4",
+    "description": "Sets outline width to 4px",
+    "category": "Borders"
+  },
+  {
+    "css": "outline-width: 8px",
+    "class": "outline-8",
+    "description": "Sets outline width to 8px",
+    "category": "Borders"
+  },
+  {
+    "css": "ring-color: rgb(59 130 246)",
+    "class": "ring-blue-500",
+    "description": "Sets ring (box-shadow) color to blue-500",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-color: rgb(239 68 68)",
+    "class": "ring-red-500",
+    "description": "Sets ring color to red-500",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-color: rgb(34 197 94)",
+    "class": "ring-green-500",
+    "description": "Sets ring color to green-500",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-color: white",
+    "class": "ring-white",
+    "description": "Sets ring color to white",
+    "category": "Ring"
+  },
+  {
+    "css": "box-shadow: 0 0 0 0px var(--tw-ring-color)",
+    "class": "ring-0",
+    "description": "Applies 0px ring (box-shadow)",
+    "category": "Ring"
+  },
+  {
+    "css": "box-shadow: 0 0 0 1px var(--tw-ring-color)",
+    "class": "ring-1",
+    "description": "Applies 1px ring (box-shadow)",
+    "category": "Ring"
+  },
+  {
+    "css": "box-shadow: 0 0 0 2px var(--tw-ring-color)",
+    "class": "ring-2",
+    "description": "Applies 2px ring (box-shadow)",
+    "category": "Ring"
+  },
+  {
+    "css": "box-shadow: 0 0 0 4px var(--tw-ring-color)",
+    "class": "ring-4",
+    "description": "Applies 4px ring (box-shadow)",
+    "category": "Ring"
+  },
+  {
+    "css": "box-shadow: 0 0 0 8px var(--tw-ring-color)",
+    "class": "ring-8",
+    "description": "Applies 8px ring (box-shadow)",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-width: 0px",
+    "class": "ring-offset-0",
+    "description": "Sets ring offset to 0px",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-width: 1px",
+    "class": "ring-offset-1",
+    "description": "Sets ring offset to 1px",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-width: 2px",
+    "class": "ring-offset-2",
+    "description": "Sets ring offset to 2px",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-width: 4px",
+    "class": "ring-offset-4",
+    "description": "Sets ring offset to 4px",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-width: 8px",
+    "class": "ring-offset-8",
+    "description": "Sets ring offset to 8px",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-color: white",
+    "class": "ring-offset-white",
+    "description": "Sets ring offset color to white",
+    "category": "Ring"
+  },
+  {
+    "css": "ring-offset-color: rgb(17 24 39)",
+    "class": "ring-offset-gray-900",
+    "description": "Sets ring offset color to gray-900",
+    "category": "Ring"
+  },
+  {
+    "css": "color-scheme: normal",
+    "class": "scheme-normal",
+    "description": "Uses browser default color scheme",
+    "category": "Accessibility"
+  },
+  {
+    "css": "color-scheme: light",
+    "class": "scheme-light",
+    "description": "Forces light color scheme",
+    "category": "Accessibility"
+  },
+  {
+    "css": "color-scheme: dark",
+    "class": "scheme-dark",
+    "description": "Forces dark color scheme",
+    "category": "Accessibility"
+  },
+  {
+    "css": "forced-color-adjust: auto",
+    "class": "forced-color-adjust-auto",
+    "description": "Allows browser to adjust colors in forced color mode",
+    "category": "Accessibility"
+  },
+  {
+    "css": "forced-color-adjust: none",
+    "class": "forced-color-adjust-none",
+    "description": "Prevents browser from adjusting colors in forced color mode",
+    "category": "Accessibility"
+  },
+  {
+    "css": "print-color-adjust: economy",
+    "class": "print:color-adjust-economy",
+    "description": "Optimizes color output for print economy",
+    "category": "Accessibility"
+  },
+  {
+    "css": "print-color-adjust: exact",
+    "class": "print:color-adjust-exact",
+    "description": "Requests exact color reproduction when printing",
+    "category": "Accessibility"
+  },
+  {
+    "css": "text-decoration-color: rgb(59 130 246)",
+    "class": "decoration-blue-500",
+    "description": "Sets text decoration color to blue-500",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-color: rgb(239 68 68)",
+    "class": "decoration-red-500",
+    "description": "Sets text decoration color to red-500",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-color: currentColor",
+    "class": "decoration-current",
+    "description": "Sets text decoration color to current color",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-color: transparent",
+    "class": "decoration-transparent",
+    "description": "Sets text decoration color to transparent",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-style: solid",
+    "class": "decoration-solid",
+    "description": "Sets text decoration style to solid",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-style: double",
+    "class": "decoration-double",
+    "description": "Sets text decoration style to double",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-style: dotted",
+    "class": "decoration-dotted",
+    "description": "Sets text decoration style to dotted",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-style: dashed",
+    "class": "decoration-dashed",
+    "description": "Sets text decoration style to dashed",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-style: wavy",
+    "class": "decoration-wavy",
+    "description": "Sets text decoration style to wavy",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-thickness: auto",
+    "class": "decoration-auto",
+    "description": "Sets text decoration thickness to auto",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-thickness: from-font",
+    "class": "decoration-from-font",
+    "description": "Sets text decoration thickness based on font metrics",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-thickness: 1px",
+    "class": "decoration-1",
+    "description": "Sets text decoration thickness to 1px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-thickness: 2px",
+    "class": "decoration-2",
+    "description": "Sets text decoration thickness to 2px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-thickness: 4px",
+    "class": "decoration-4",
+    "description": "Sets text decoration thickness to 4px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-decoration-thickness: 8px",
+    "class": "decoration-8",
+    "description": "Sets text decoration thickness to 8px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-underline-offset: auto",
+    "class": "underline-offset-auto",
+    "description": "Sets underline offset to auto",
+    "category": "Typography"
+  },
+  {
+    "css": "text-underline-offset: 1px",
+    "class": "underline-offset-1",
+    "description": "Sets underline offset to 1px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-underline-offset: 2px",
+    "class": "underline-offset-2",
+    "description": "Sets underline offset to 2px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-underline-offset: 4px",
+    "class": "underline-offset-4",
+    "description": "Sets underline offset to 4px",
+    "category": "Typography"
+  },
+  {
+    "css": "text-underline-offset: 8px",
+    "class": "underline-offset-8",
+    "description": "Sets underline offset to 8px",
+    "category": "Typography"
+  },
+  {
+    "css": "columns: auto",
+    "class": "columns-auto",
+    "description": "Sets column count to auto",
+    "category": "Columns"
+  },
+  {
+    "css": "columns: 4",
+    "class": "columns-4",
+    "description": "Splits content into 4 columns",
+    "category": "Columns"
+  },
+  {
+    "css": "columns: 5",
+    "class": "columns-5",
+    "description": "Splits content into 5 columns",
+    "category": "Columns"
+  },
+  {
+    "css": "columns: 6",
+    "class": "columns-6",
+    "description": "Splits content into 6 columns",
+    "category": "Columns"
+  },
+  {
+    "css": "columns: 7",
+    "class": "columns-7",
+    "description": "Splits content into 7 columns",
+    "category": "Columns"
+  },
+  {
+    "css": "columns: 12",
+    "class": "columns-12",
+    "description": "Splits content into 12 columns",
+    "category": "Columns"
+  },
+  {
+    "css": "columns: 16rem",
+    "class": "columns-64",
+    "description": "Sets column width to 256px (16rem)",
+    "category": "Columns"
+  },
+  {
+    "css": "column-gap: 0",
+    "class": "gap-x-0",
+    "description": "Removes horizontal column gap",
+    "category": "Columns"
+  },
+  {
+    "css": "column-gap: 0.5rem",
+    "class": "gap-x-2",
+    "description": "Sets horizontal column gap to 8px",
+    "category": "Columns"
+  },
+  {
+    "css": "column-gap: 1.5rem",
+    "class": "gap-x-6",
+    "description": "Sets horizontal column gap to 24px",
+    "category": "Columns"
+  },
+  {
+    "css": "column-rule-width: 0",
+    "class": "divide-x-0",
+    "description": "Removes vertical divider line between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-right-width: 1px; border-left-width: 1px",
+    "class": "divide-x",
+    "description": "Adds 1px vertical divider line between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-right-width: 2px; border-left-width: 2px",
+    "class": "divide-x-2",
+    "description": "Adds 2px vertical divider between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-right-width: 4px; border-left-width: 4px",
+    "class": "divide-x-4",
+    "description": "Adds 4px vertical divider between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-right-width: 8px; border-left-width: 8px",
+    "class": "divide-x-8",
+    "description": "Adds 8px vertical divider between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-top-width: 1px; border-bottom-width: 1px",
+    "class": "divide-y",
+    "description": "Adds 1px horizontal divider line between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-top-width: 2px; border-bottom-width: 2px",
+    "class": "divide-y-2",
+    "description": "Adds 2px horizontal divider between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-top-width: 4px; border-bottom-width: 4px",
+    "class": "divide-y-4",
+    "description": "Adds 4px horizontal divider between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-top-width: 0; border-bottom-width: 0",
+    "class": "divide-y-0",
+    "description": "Removes horizontal divider between children",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-color: rgb(209 213 219); (divide)",
+    "class": "divide-gray-300",
+    "description": "Sets divider color to gray-300",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-color: rgb(59 130 246); (divide)",
+    "class": "divide-blue-500",
+    "description": "Sets divider color to blue-500",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-color: transparent; (divide)",
+    "class": "divide-transparent",
+    "description": "Sets divider color to transparent",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-style: solid; (divide)",
+    "class": "divide-solid",
+    "description": "Sets divider style to solid",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-style: dashed; (divide)",
+    "class": "divide-dashed",
+    "description": "Sets divider style to dashed",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-style: dotted; (divide)",
+    "class": "divide-dotted",
+    "description": "Sets divider style to dotted",
+    "category": "Dividers"
+  },
+  {
+    "css": "border-style: none; (divide)",
+    "class": "divide-none",
+    "description": "Removes divider style",
+    "category": "Dividers"
+  },
+  {
+    "css": "place-content: center",
+    "class": "place-content-center",
+    "description": "Centers items on both axes in grid/flex",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-content: start",
+    "class": "place-content-start",
+    "description": "Aligns items to start on both axes",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-content: end",
+    "class": "place-content-end",
+    "description": "Aligns items to end on both axes",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-content: space-between",
+    "class": "place-content-between",
+    "description": "Distributes items with space between on both axes",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-content: space-around",
+    "class": "place-content-around",
+    "description": "Distributes items with space around on both axes",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-content: space-evenly",
+    "class": "place-content-evenly",
+    "description": "Distributes items with equal space on both axes",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-content: stretch",
+    "class": "place-content-stretch",
+    "description": "Stretches items to fill grid on both axes",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-items: start",
+    "class": "place-items-start",
+    "description": "Aligns all grid items to start of their cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-items: end",
+    "class": "place-items-end",
+    "description": "Aligns all grid items to end of their cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-items: center",
+    "class": "place-items-center",
+    "description": "Centers all grid items within their cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-items: stretch",
+    "class": "place-items-stretch",
+    "description": "Stretches all grid items to fill their cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-self: auto",
+    "class": "place-self-auto",
+    "description": "Uses default alignment for individual grid item",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-self: start",
+    "class": "place-self-start",
+    "description": "Aligns individual grid item to start of cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-self: end",
+    "class": "place-self-end",
+    "description": "Aligns individual grid item to end of cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-self: center",
+    "class": "place-self-center",
+    "description": "Centers individual grid item within cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "place-self: stretch",
+    "class": "place-self-stretch",
+    "description": "Stretches individual grid item to fill cell",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-self: auto",
+    "class": "justify-self-auto",
+    "description": "Uses default inline alignment for grid item",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-self: start",
+    "class": "justify-self-start",
+    "description": "Aligns grid item to start of its column",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-self: end",
+    "class": "justify-self-end",
+    "description": "Aligns grid item to end of its column",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-self: center",
+    "class": "justify-self-center",
+    "description": "Centers grid item in its column",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-self: stretch",
+    "class": "justify-self-stretch",
+    "description": "Stretches grid item to fill its column",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-items: start",
+    "class": "justify-items-start",
+    "description": "Aligns all grid items to start of their columns",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-items: end",
+    "class": "justify-items-end",
+    "description": "Aligns all grid items to end of their columns",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-items: center",
+    "class": "justify-items-center",
+    "description": "Centers all grid items within their columns",
+    "category": "Alignment"
+  },
+  {
+    "css": "justify-items: stretch",
+    "class": "justify-items-stretch",
+    "description": "Stretches all grid items to fill their columns",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: flex-start",
+    "class": "content-start",
+    "description": "Aligns wrapped flex/grid lines to start",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: flex-end",
+    "class": "content-end",
+    "description": "Aligns wrapped flex/grid lines to end",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: center",
+    "class": "content-center",
+    "description": "Centers wrapped flex/grid lines",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: space-between",
+    "class": "content-between",
+    "description": "Distributes wrapped lines with space between",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: space-around",
+    "class": "content-around",
+    "description": "Distributes wrapped lines with space around",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: space-evenly",
+    "class": "content-evenly",
+    "description": "Distributes wrapped lines with equal space",
+    "category": "Alignment"
+  },
+  {
+    "css": "align-content: stretch",
+    "class": "content-stretch",
+    "description": "Stretches wrapped lines to fill the container",
+    "category": "Alignment"
+  },
+  {
+    "css": "grid-column-start: 1",
+    "class": "col-start-1",
+    "description": "Starts grid item at column line 1",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-column-start: 2",
+    "class": "col-start-2",
+    "description": "Starts grid item at column line 2",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-column-start: 3",
+    "class": "col-start-3",
+    "description": "Starts grid item at column line 3",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-column-start: auto",
+    "class": "col-start-auto",
+    "description": "Sets grid item column start to auto",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-column-end: 1",
+    "class": "col-end-1",
+    "description": "Ends grid item at column line 1",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-column-end: 2",
+    "class": "col-end-2",
+    "description": "Ends grid item at column line 2",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-column-end: auto",
+    "class": "col-end-auto",
+    "description": "Sets grid item column end to auto",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-row-start: 1",
+    "class": "row-start-1",
+    "description": "Starts grid item at row line 1",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-row-start: 2",
+    "class": "row-start-2",
+    "description": "Starts grid item at row line 2",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-row-start: auto",
+    "class": "row-start-auto",
+    "description": "Sets grid item row start to auto",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-row-end: 1",
+    "class": "row-end-1",
+    "description": "Ends grid item at row line 1",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-row-end: auto",
+    "class": "row-end-auto",
+    "description": "Sets grid item row end to auto",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-row: 1 / -1",
+    "class": "row-span-full",
+    "description": "Makes grid item span all rows",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-columns: auto",
+    "class": "auto-cols-auto",
+    "description": "Sets implicit column size to auto",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-columns: min-content",
+    "class": "auto-cols-min",
+    "description": "Sets implicit column size to min-content",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-columns: max-content",
+    "class": "auto-cols-max",
+    "description": "Sets implicit column size to max-content",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-columns: minmax(0, 1fr)",
+    "class": "auto-cols-fr",
+    "description": "Sets implicit column size to 1fr",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-rows: auto",
+    "class": "auto-rows-auto",
+    "description": "Sets implicit row size to auto",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-rows: min-content",
+    "class": "auto-rows-min",
+    "description": "Sets implicit row size to min-content",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-rows: max-content",
+    "class": "auto-rows-max",
+    "description": "Sets implicit row size to max-content",
+    "category": "Grid"
+  },
+  {
+    "css": "grid-auto-rows: minmax(0, 1fr)",
+    "class": "auto-rows-fr",
+    "description": "Sets implicit row size to 1fr",
+    "category": "Grid"
+  },
+  {
+    "css": "padding: 0.125rem",
+    "class": "p-0.5",
+    "description": "Applies padding of 2px (0.125rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin: 0.125rem",
+    "class": "m-0.5",
+    "description": "Applies margin of 2px (0.125rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "gap: 0.125rem",
+    "class": "gap-0.5",
+    "description": "Sets gap to 2px (0.125rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-top: 5rem",
+    "class": "mt-20",
+    "description": "Applies top margin of 80px (5rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-top: 6rem",
+    "class": "mt-24",
+    "description": "Applies top margin of 96px (6rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-top: 8rem",
+    "class": "mt-32",
+    "description": "Applies top margin of 128px (8rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-bottom: 5rem",
+    "class": "mb-20",
+    "description": "Applies bottom margin of 80px (5rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin: -1rem",
+    "class": "-m-4",
+    "description": "Applies negative margin of -16px on all sides",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-top: -1rem",
+    "class": "-mt-4",
+    "description": "Applies negative top margin of -16px",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-left: -1rem",
+    "class": "-ml-4",
+    "description": "Applies negative left margin of -16px",
+    "category": "Spacing"
+  },
+  {
+    "css": "padding: 5rem",
+    "class": "p-20",
+    "description": "Applies padding of 80px (5rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "padding: 6rem",
+    "class": "p-24",
+    "description": "Applies padding of 96px (6rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "padding: 8rem",
+    "class": "p-32",
+    "description": "Applies padding of 128px (8rem)",
+    "category": "Spacing"
+  },
+  {
+    "css": "scroll-margin-top: 1rem",
+    "class": "scroll-mt-4",
+    "description": "Sets top scroll margin for anchor targeting",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-margin-top: 2rem",
+    "class": "scroll-mt-8",
+    "description": "Sets 32px top scroll margin for anchor targeting",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-margin-top: 0",
+    "class": "scroll-mt-0",
+    "description": "Removes top scroll margin",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-margin-bottom: 1rem",
+    "class": "scroll-mb-4",
+    "description": "Sets bottom scroll margin for anchor targeting",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-margin-left: 1rem",
+    "class": "scroll-ml-4",
+    "description": "Sets left scroll margin for anchor targeting",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-margin-right: 1rem",
+    "class": "scroll-mr-4",
+    "description": "Sets right scroll margin for anchor targeting",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-padding-top: 1rem",
+    "class": "scroll-pt-4",
+    "description": "Sets top scroll padding on scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-padding-bottom: 1rem",
+    "class": "scroll-pb-4",
+    "description": "Sets bottom scroll padding on scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-padding-left: 1rem",
+    "class": "scroll-pl-4",
+    "description": "Sets left scroll padding on scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-padding-right: 1rem",
+    "class": "scroll-pr-4",
+    "description": "Sets right scroll padding on scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-type: x mandatory",
+    "class": "snap-x",
+    "description": "Enables mandatory horizontal scroll snapping",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-type: y mandatory",
+    "class": "snap-y",
+    "description": "Enables mandatory vertical scroll snapping",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-type: both mandatory",
+    "class": "snap-both",
+    "description": "Enables mandatory scroll snapping in both directions",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-type: none",
+    "class": "snap-none",
+    "description": "Disables scroll snapping",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-align: start",
+    "class": "snap-start",
+    "description": "Snaps element to start of scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-align: center",
+    "class": "snap-center",
+    "description": "Snaps element to center of scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-align: end",
+    "class": "snap-end",
+    "description": "Snaps element to end of scroll container",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-align: none",
+    "class": "snap-align-none",
+    "description": "Removes snap alignment from element",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-stop: normal",
+    "class": "snap-normal",
+    "description": "Allows skipping snap points when scrolling",
+    "category": "Scroll"
+  },
+  {
+    "css": "scroll-snap-stop: always",
+    "class": "snap-always",
+    "description": "Forces stopping at every snap point",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior: auto",
+    "class": "overscroll-auto",
+    "description": "Uses default overscroll behavior",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior: contain",
+    "class": "overscroll-contain",
+    "description": "Prevents overscroll from propagating to parent",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior: none",
+    "class": "overscroll-none",
+    "description": "Disables overscroll effects entirely",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior-x: auto",
+    "class": "overscroll-x-auto",
+    "description": "Uses default horizontal overscroll behavior",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior-x: contain",
+    "class": "overscroll-x-contain",
+    "description": "Prevents horizontal overscroll from propagating",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior-y: contain",
+    "class": "overscroll-y-contain",
+    "description": "Prevents vertical overscroll from propagating",
+    "category": "Scroll"
+  },
+  {
+    "css": "overscroll-behavior-y: none",
+    "class": "overscroll-y-none",
+    "description": "Disables vertical overscroll effects",
+    "category": "Scroll"
+  },
+  {
+    "css": "transform: skewX(3deg)",
+    "class": "skew-x-3",
+    "description": "Skews element 3 degrees along X axis",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform: skewX(6deg)",
+    "class": "skew-x-6",
+    "description": "Skews element 6 degrees along X axis",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform: skewX(12deg)",
+    "class": "skew-x-12",
+    "description": "Skews element 12 degrees along X axis",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform: skewY(3deg)",
+    "class": "skew-y-3",
+    "description": "Skews element 3 degrees along Y axis",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform: skewY(6deg)",
+    "class": "skew-y-6",
+    "description": "Skews element 6 degrees along Y axis",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform: skewY(12deg)",
+    "class": "skew-y-12",
+    "description": "Skews element 12 degrees along Y axis",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: center",
+    "class": "origin-center",
+    "description": "Sets transform origin to center of element",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: top left",
+    "class": "origin-top-left",
+    "description": "Sets transform origin to top-left corner",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: top",
+    "class": "origin-top",
+    "description": "Sets transform origin to top edge",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: top right",
+    "class": "origin-top-right",
+    "description": "Sets transform origin to top-right corner",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: right",
+    "class": "origin-right",
+    "description": "Sets transform origin to right edge",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: bottom right",
+    "class": "origin-bottom-right",
+    "description": "Sets transform origin to bottom-right corner",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: bottom",
+    "class": "origin-bottom",
+    "description": "Sets transform origin to bottom edge",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: bottom left",
+    "class": "origin-bottom-left",
+    "description": "Sets transform origin to bottom-left corner",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-origin: left",
+    "class": "origin-left",
+    "description": "Sets transform origin to left edge",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-style: preserve-3d",
+    "class": "transform-style-3d",
+    "description": "Enables 3D transform rendering for children",
+    "category": "Transforms"
+  },
+  {
+    "css": "transform-style: flat",
+    "class": "transform-style-flat",
+    "description": "Flattens 3D-transformed children",
+    "category": "Transforms"
+  },
+  {
+    "css": "perspective: none",
+    "class": "perspective-none",
+    "description": "Removes perspective from 3D transforms",
+    "category": "Transforms"
+  },
+  {
+    "css": "perspective-origin: center",
+    "class": "perspective-origin-center",
+    "description": "Sets perspective origin to center",
+    "category": "Transforms"
+  },
+  {
+    "css": "backface-visibility: hidden",
+    "class": "backface-hidden",
+    "description": "Hides backface of 3D-transformed element",
+    "category": "Transforms"
+  },
+  {
+    "css": "backface-visibility: visible",
+    "class": "backface-visible",
+    "description": "Shows backface of 3D-transformed element",
+    "category": "Transforms"
+  },
+  {
+    "css": "background-image: linear-gradient(to right, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-r",
+    "description": "Applies a left-to-right gradient background",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to left, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-l",
+    "description": "Applies a right-to-left gradient background",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to top, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-t",
+    "description": "Applies a bottom-to-top gradient background",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to bottom, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-b",
+    "description": "Applies a top-to-bottom gradient background",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to top right, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-tr",
+    "description": "Applies a bottom-left to top-right gradient",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to top left, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-tl",
+    "description": "Applies a bottom-right to top-left gradient",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to bottom right, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-br",
+    "description": "Applies a top-left to bottom-right gradient",
+    "category": "Gradients"
+  },
+  {
+    "css": "background-image: linear-gradient(to bottom left, var(--tw-gradient-stops))",
+    "class": "bg-gradient-to-bl",
+    "description": "Applies a top-right to bottom-left gradient",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-from: rgb(59 130 246)",
+    "class": "from-blue-500",
+    "description": "Sets gradient start color to blue-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-from: rgb(239 68 68)",
+    "class": "from-red-500",
+    "description": "Sets gradient start color to red-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-from: rgb(34 197 94)",
+    "class": "from-green-500",
+    "description": "Sets gradient start color to green-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-from: rgb(168 85 247)",
+    "class": "from-purple-500",
+    "description": "Sets gradient start color to purple-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-from: white",
+    "class": "from-white",
+    "description": "Sets gradient start color to white",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-from: transparent",
+    "class": "from-transparent",
+    "description": "Sets gradient start color to transparent",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-via: rgb(59 130 246)",
+    "class": "via-blue-500",
+    "description": "Sets gradient midpoint color to blue-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-via: rgb(168 85 247)",
+    "class": "via-purple-500",
+    "description": "Sets gradient midpoint color to purple-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-via: transparent",
+    "class": "via-transparent",
+    "description": "Sets gradient midpoint to transparent",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-to: rgb(59 130 246)",
+    "class": "to-blue-500",
+    "description": "Sets gradient end color to blue-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-to: rgb(239 68 68)",
+    "class": "to-red-500",
+    "description": "Sets gradient end color to red-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-to: rgb(168 85 247)",
+    "class": "to-purple-500",
+    "description": "Sets gradient end color to purple-500",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-to: transparent",
+    "class": "to-transparent",
+    "description": "Sets gradient end color to transparent",
+    "category": "Gradients"
+  },
+  {
+    "css": "--tw-gradient-to: white",
+    "class": "to-white",
+    "description": "Sets gradient end color to white",
+    "category": "Gradients"
+  },
+  {
+    "css": "width: 0.5px",
+    "class": "w-px",
+    "description": "Sets width to 1px",
+    "category": "Sizing"
+  },
+  {
+    "css": "height: 0.5px",
+    "class": "h-px",
+    "description": "Sets height to 1px",
+    "category": "Sizing"
+  },
+  {
+    "css": "width: fit-content",
+    "class": "w-fit",
+    "description": "Sets width to fit content",
+    "category": "Sizing"
+  },
+  {
+    "css": "height: fit-content",
+    "class": "h-fit",
+    "description": "Sets height to fit content",
+    "category": "Sizing"
+  },
+  {
+    "css": "width: min-content",
+    "class": "w-min",
+    "description": "Sets width to minimum content size",
+    "category": "Sizing"
+  },
+  {
+    "css": "width: max-content",
+    "class": "w-max",
+    "description": "Sets width to maximum content size",
+    "category": "Sizing"
+  },
+  {
+    "css": "height: min-content",
+    "class": "h-min",
+    "description": "Sets height to minimum content size",
+    "category": "Sizing"
+  },
+  {
+    "css": "height: max-content",
+    "class": "h-max",
+    "description": "Sets height to maximum content size",
+    "category": "Sizing"
+  },
+  {
+    "css": "min-width: min-content",
+    "class": "min-w-min",
+    "description": "Sets minimum width to min-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "min-width: max-content",
+    "class": "min-w-max",
+    "description": "Sets minimum width to max-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "min-width: fit-content",
+    "class": "min-w-fit",
+    "description": "Sets minimum width to fit-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "max-width: min-content",
+    "class": "max-w-min",
+    "description": "Sets maximum width to min-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "max-width: max-content",
+    "class": "max-w-max",
+    "description": "Sets maximum width to max-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "max-width: fit-content",
+    "class": "max-w-fit",
+    "description": "Sets maximum width to fit-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "max-width: 100vw",
+    "class": "max-w-screen",
+    "description": "Sets maximum width to viewport width",
+    "category": "Sizing"
+  },
+  {
+    "css": "min-height: fit-content",
+    "class": "min-h-fit",
+    "description": "Sets minimum height to fit-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "min-height: min-content",
+    "class": "min-h-min",
+    "description": "Sets minimum height to min-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "min-height: max-content",
+    "class": "min-h-max",
+    "description": "Sets minimum height to max-content",
+    "category": "Sizing"
+  },
+  {
+    "css": "size: 1rem",
+    "class": "size-4",
+    "description": "Sets both width and height to 16px (1rem)",
+    "category": "Sizing"
+  },
+  {
+    "css": "size: 1.5rem",
+    "class": "size-6",
+    "description": "Sets both width and height to 24px (1.5rem)",
+    "category": "Sizing"
+  },
+  {
+    "css": "size: 2rem",
+    "class": "size-8",
+    "description": "Sets both width and height to 32px (2rem)",
+    "category": "Sizing"
+  },
+  {
+    "css": "size: 3rem",
+    "class": "size-12",
+    "description": "Sets both width and height to 48px (3rem)",
+    "category": "Sizing"
+  },
+  {
+    "css": "size: 100%",
+    "class": "size-full",
+    "description": "Sets both width and height to 100%",
+    "category": "Sizing"
+  },
+  {
+    "css": "size: auto",
+    "class": "size-auto",
+    "description": "Sets both width and height to auto",
+    "category": "Sizing"
+  },
+  {
+    "css": "inset-inline-start: 0",
+    "class": "start-0",
+    "description": "Sets logical start position to 0",
+    "category": "Layout"
+  },
+  {
+    "css": "inset-inline-end: 0",
+    "class": "end-0",
+    "description": "Sets logical end position to 0",
+    "category": "Layout"
+  },
+  {
+    "css": "inset-inline-start: auto",
+    "class": "start-auto",
+    "description": "Sets logical start position to auto",
+    "category": "Layout"
+  },
+  {
+    "css": "inset-inline-end: auto",
+    "class": "end-auto",
+    "description": "Sets logical end position to auto",
+    "category": "Layout"
+  },
+  {
+    "css": "margin-inline-start: auto",
+    "class": "ms-auto",
+    "description": "Applies auto inline-start margin (RTL-aware)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-inline-end: auto",
+    "class": "me-auto",
+    "description": "Applies auto inline-end margin (RTL-aware)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-inline-start: 1rem",
+    "class": "ms-4",
+    "description": "Applies inline-start margin of 16px (RTL-aware)",
+    "category": "Spacing"
+  },
+  {
+    "css": "margin-inline-end: 1rem",
+    "class": "me-4",
+    "description": "Applies inline-end margin of 16px (RTL-aware)",
+    "category": "Spacing"
+  },
+  {
+    "css": "padding-inline-start: 1rem",
+    "class": "ps-4",
+    "description": "Applies inline-start padding of 16px (RTL-aware)",
+    "category": "Spacing"
+  },
+  {
+    "css": "padding-inline-end: 1rem",
+    "class": "pe-4",
+    "description": "Applies inline-end padding of 16px (RTL-aware)",
+    "category": "Spacing"
+  },
+  {
+    "css": "direction: ltr",
+    "class": "ltr",
+    "description": "Sets text direction to left-to-right",
+    "category": "Layout"
+  },
+  {
+    "css": "direction: rtl",
+    "class": "rtl",
+    "description": "Sets text direction to right-to-left",
+    "category": "Layout"
+  },
+  {
+    "css": "writing-mode: horizontal-tb",
+    "class": "writing-mode-horizontal",
+    "description": "Sets standard horizontal writing mode",
+    "category": "Typography"
+  },
+  {
+    "css": "writing-mode: vertical-rl",
+    "class": "writing-mode-vertical-rl",
+    "description": "Sets vertical right-to-left writing mode",
+    "category": "Typography"
+  },
+  {
+    "css": "writing-mode: vertical-lr",
+    "class": "writing-mode-vertical-lr",
+    "description": "Sets vertical left-to-right writing mode",
+    "category": "Typography"
+  },
+  {
+    "css": "unicode-bidi: normal",
+    "class": "unicode-normal",
+    "description": "Uses normal Unicode bidirectional algorithm",
+    "category": "Typography"
+  },
+  {
+    "css": "unicode-bidi: bidi-override",
+    "class": "unicode-bidi-override",
+    "description": "Overrides bidirectional algorithm",
+    "category": "Typography"
+  },
+  {
+    "css": "filter: contrast(0)",
+    "class": "contrast-0",
+    "description": "Sets contrast to 0 (completely gray)",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: contrast(0.5)",
+    "class": "contrast-50",
+    "description": "Reduces contrast to 50%",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: contrast(1)",
+    "class": "contrast-100",
+    "description": "Sets contrast to normal",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: contrast(1.25)",
+    "class": "contrast-125",
+    "description": "Increases contrast to 125%",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: contrast(1.5)",
+    "class": "contrast-150",
+    "description": "Increases contrast to 150%",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: contrast(2)",
+    "class": "contrast-200",
+    "description": "Doubles contrast",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: hue-rotate(0deg)",
+    "class": "hue-rotate-0",
+    "description": "Sets hue rotation to 0 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: hue-rotate(15deg)",
+    "class": "hue-rotate-15",
+    "description": "Rotates hue by 15 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: hue-rotate(30deg)",
+    "class": "hue-rotate-30",
+    "description": "Rotates hue by 30 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: hue-rotate(60deg)",
+    "class": "hue-rotate-60",
+    "description": "Rotates hue by 60 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: hue-rotate(90deg)",
+    "class": "hue-rotate-90",
+    "description": "Rotates hue by 90 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: hue-rotate(180deg)",
+    "class": "hue-rotate-180",
+    "description": "Rotates hue by 180 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: sepia(0)",
+    "class": "sepia-0",
+    "description": "Removes sepia filter",
+    "category": "Effects"
+  },
+  {
+    "css": "filter: sepia(1)",
+    "class": "sepia",
+    "description": "Applies full sepia tone to element",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: none",
+    "class": "backdrop-filter-none",
+    "description": "Removes backdrop filter",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: contrast(0.5)",
+    "class": "backdrop-contrast-50",
+    "description": "Reduces backdrop contrast to 50%",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: hue-rotate(180deg)",
+    "class": "backdrop-hue-rotate-180",
+    "description": "Rotates backdrop hue by 180 degrees",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: invert(1)",
+    "class": "backdrop-invert",
+    "description": "Inverts backdrop colors",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: opacity(0.5)",
+    "class": "backdrop-opacity-50",
+    "description": "Sets backdrop opacity to 50%",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: saturate(0)",
+    "class": "backdrop-saturate-0",
+    "description": "Removes backdrop saturation",
+    "category": "Effects"
+  },
+  {
+    "css": "backdrop-filter: sepia(1)",
+    "class": "backdrop-sepia",
+    "description": "Applies sepia tone to backdrop",
+    "category": "Effects"
+  },
+  {
+    "css": "background-clip: border-box",
+    "class": "bg-clip-border",
+    "description": "Clips background to border-box",
+    "category": "Background"
+  },
+  {
+    "css": "background-clip: padding-box",
+    "class": "bg-clip-padding",
+    "description": "Clips background to padding-box",
+    "category": "Background"
+  },
+  {
+    "css": "background-clip: content-box",
+    "class": "bg-clip-content",
+    "description": "Clips background to content-box",
+    "category": "Background"
+  },
+  {
+    "css": "background-clip: text",
+    "class": "bg-clip-text",
+    "description": "Clips background to text shape (use with text-transparent)",
+    "category": "Background"
+  },
+  {
+    "css": "background-origin: border-box",
+    "class": "bg-origin-border",
+    "description": "Positions background relative to border-box",
+    "category": "Background"
+  },
+  {
+    "css": "background-origin: padding-box",
+    "class": "bg-origin-padding",
+    "description": "Positions background relative to padding-box",
+    "category": "Background"
+  },
+  {
+    "css": "background-origin: content-box",
+    "class": "bg-origin-content",
+    "description": "Positions background relative to content-box",
+    "category": "Background"
+  },
+  {
+    "css": "border-top-left-radius: 0.25rem",
+    "class": "rounded-tl",
+    "description": "Applies border radius to top-left corner",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-right-radius: 0.25rem",
+    "class": "rounded-tr",
+    "description": "Applies border radius to top-right corner",
+    "category": "Borders"
+  },
+  {
+    "css": "border-bottom-left-radius: 0.25rem",
+    "class": "rounded-bl",
+    "description": "Applies border radius to bottom-left corner",
+    "category": "Borders"
+  },
+  {
+    "css": "border-bottom-right-radius: 0.25rem",
+    "class": "rounded-br",
+    "description": "Applies border radius to bottom-right corner",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem",
+    "class": "rounded-t",
+    "description": "Applies border radius to top corners",
+    "category": "Borders"
+  },
+  {
+    "css": "border-bottom-left-radius: 0.25rem; border-bottom-right-radius: 0.25rem",
+    "class": "rounded-b",
+    "description": "Applies border radius to bottom corners",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-left-radius: 0.25rem; border-bottom-left-radius: 0.25rem",
+    "class": "rounded-l",
+    "description": "Applies border radius to left corners",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem",
+    "class": "rounded-r",
+    "description": "Applies border radius to right corners",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-left-radius: 0.5rem",
+    "class": "rounded-tl-lg",
+    "description": "Applies large border radius to top-left corner",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-right-radius: 0.5rem",
+    "class": "rounded-tr-lg",
+    "description": "Applies large border radius to top-right corner",
+    "category": "Borders"
+  },
+  {
+    "css": "border-top-left-radius: 9999px; border-top-right-radius: 9999px",
+    "class": "rounded-t-full",
+    "description": "Fully rounds top corners",
+    "category": "Borders"
+  },
+  {
+    "css": "border-bottom-left-radius: 9999px; border-bottom-right-radius: 9999px",
+    "class": "rounded-b-full",
+    "description": "Fully rounds bottom corners",
+    "category": "Borders"
+  },
+
+  {
     "css": "display: flex;",
     "class": "flex",
     "description": "Sets display to flex",
