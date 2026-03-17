@@ -60,7 +60,7 @@ function renderCards(data) {
 
 async function fetchData() {
     try {
-        const res = await fetch(domain + "/easy-tailwind/json/css-to-tailwind.json");
+        const res = await fetch(domain + "/json/css-to-tailwind.json");
         const data = await res.json() || [];
 
         if (data.length < 1) {
