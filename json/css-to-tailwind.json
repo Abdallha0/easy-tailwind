@@ -630,7 +630,6 @@
     "description": "Adds 16px vertical spacing between children",
     "category": "Spacing"
   },
-
   {
     "css": "text-shadow: 0 1px 2px rgba(0,0,0,0.5)",
     "class": "drop-shadow-sm",
@@ -2581,7 +2580,6 @@
     "description": "Fully rounds bottom corners",
     "category": "Borders"
   },
-
   {
     "css": "display: flex;",
     "class": "flex",
