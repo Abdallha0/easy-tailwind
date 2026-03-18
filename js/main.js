@@ -7,7 +7,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 let currentPage = 1;
-let totalPages = Math.ceil(522 / 20);
+let totalPages = Math.ceil(847 / 20);
 document.addEventListener("DOMContentLoaded", () => {
     const prevBtn = document.getElementById("prev");
     const nextBtn = document.getElementById("next");
