@@ -57,16 +57,16 @@ function planB(data, query) {
 
     // if propert and value are correct 
     if (isRealProperty.length && isRealValue.length) {
-        let prop = isRealProperty[0].css.split("-")[0];
+        let prop = isRealProperty[0].class.split("-")[0];
         let propValue = value.replace(";", "")
         return {
             css: query,
-            class: `${isRealProperty[0].css.split(":")[0]}-[${propValue.replace(" ", "_")}]`, // make coustme class
-            description: `set ${prop.split(":")[0]} to ${propValue}.`,
+            class: `${prop}-[${propValue.replace(" ", "_")}]`, // make coustme class
+            description: `give ${propValue} to ${property}.`,
             category: prop.split("-")[0]
         }
 
-    // if css value isn't found in data return all items that matches css porperty
+        // if css value isn't found in data return all items that matches css porperty
     } else if (isRealProperty.length && !isRealValue.length) return sortingData(query, isRealProperty, /([a-zA-Z-]+)\s*\(/)
     // if css property isn't found in data return all items that matches css value
     else if (!isRealProperty.length && isRealValue.length) return sortingData(query, isRealValue, /^([a-zA-Z-]+)\s*:/)
