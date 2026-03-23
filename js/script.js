@@ -57,7 +57,7 @@ function renderCards(data) {
         observer.observe(el)
     });
 
-    data.payload.length >= 20 ? pagination.classList.remove("hidden") : pagination.classList.add("hidden")
+    data.payload.length >= 20 ? pagination.classList.remove("hidden") : nextBtn.classList.add("hidden")
     return;
 }
 
