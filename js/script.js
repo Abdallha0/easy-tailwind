@@ -1,8 +1,7 @@
 const contentContainer = document.getElementById("content-container");
 const domain = location.origin
-const contentSec = document.getElementById("content-sec");
+const url = domain.startsWith("https") ? domain + "/easy-tailwind/json/css-to-tailwind.json" : domain + "/json/css-to-tailwind.json"
 contentContainer.innerHTML = `<h2 class="text-white text-center text-4xl p-20">Loading...</h2>`;
-
 const errorMsg = (msg) => `<h2 class="capitalize text-white text-center text-4xl p-20">${msg}</h2>`
 
 function copy(text) {
@@ -18,12 +17,13 @@ function copy(text) {
 }
 
 function card(i) {
+    if (typeof i !== "object") return;
     return `
     <div class="scroll-animate opacity-0 translate-y-10 duration-700 overflow-hidden z-50 rounded-lg bg-gradient-to-r from-[#0bcae4] via-[#b370ff] to-[#0bb9e4] shadow-[0_0_10px_5px_#b370ff41] w-[280px] h-[180px] p-[3px] cursor-pointer hover:translate-y-[-5px] transition-[all_.4s] hover:transition-[all_.4s] ">
                 <div class="flex flex-col rounded-lg bg-[#1e1e1e] size-full">
                     <div class="p-4 pb-2 border-b-[1px] border-[#0bcbe43b] h-[60%]">
                         <p class="text-xl pb-2">${i.class}</p>
-                        <p class="text-[#ffffff81] text-nowrap">${i.css}</p>
+                        <p class="text-[#ffffff81] overflow-x-auto text-nowrap scrollbar-style">${i.css}</p>
                     </div>
                     <div class="flex justify-between gap-2 p-2 size-full h-[40%]">
                         <p class="capitalize text-wrap self-start text-[13px] text-[#ffffff67] max-w-[calc(100%-4rem)]">
@@ -43,9 +43,9 @@ function card(i) {
 }
 
 function renderCards(data) {
-
-    if (!data.ok || data.message) {
-        contentSec.innerHTML = errorMsg(data.message)
+    if (!data.ok) {
+        contentContainer.innerHTML = errorMsg(data.message || "");
+        pagination.classList.add("hidden");
         return;
     };
 
@@ -56,12 +56,15 @@ function renderCards(data) {
     document.querySelectorAll(".scroll-animate").forEach(el => {
         observer.observe(el)
     });
+
+    data.payload.length >= 20 ? pagination.classList.remove("hidden") : pagination.classList.add("hidden")
+    return;
 }
 
-async function fetchData() {
+async function fetchData(page) {
     try {
-        const res = await fetch(domain + "/easy-tailwind/json/css-to-tailwind.json");
-        const data = await res.json() || [];
+        const res = await fetch(url);
+        const data = (await res.json() || []).slice((page * 20) - 20, 20 * page);
 
         if (data.length < 1) {
             return {
@@ -69,6 +72,12 @@ async function fetchData() {
                 payload: [],
                 message: "No data found"
             }
+        }
+
+        if (data.some(i => typeof i === "string")) {
+            nextBtn.classList.add("hidden")
+        } else {
+            nextBtn.classList.remove("hidden")
         }
 
         return {
@@ -86,60 +95,64 @@ async function fetchData() {
 }
 
 async function SearchData(query) {
-    contentContainer.innerHTML = `<h2 class="text-white text-center text-4xl p-20">Loading...</h2>`;
-    const res = await fetchData();
-    if (!res.ok || res.message) return renderCards(res);
+    try {
+        if (!query) return;
+        contentContainer.innerHTML = `<h2 class="text-white text-center text-4xl p-20">Loading...</h2>`;
+        const res = await fetch(url);
+        const data = await res.json();
+        const result = data.find(i => typeof i === "object" && i.css.startsWith(query)) || planB(data, query) || null;
 
-    const data = Array(res.payload.find(i => i.css.startsWith(query)));
-    if (data.length < 1) {
-        return {
-            ok: false,
-            payload: [],
-            message: "No property matches with your query"
+        if (!result) {
+            renderCards({
+                ok: false,
+                payload: [],
+                message: "No property matches with this query"
+            })
+            return;
         }
-    }
 
-    return {
-        ok: true,
-        payload: data,
-        message: null,
-    }
+        renderCards({
+            ok: true,
+            payload: Array.isArray(result) ? result.slice(0, 19) : Array(result),
+            message: null,
+        })
 
+    } catch (error) {
+        console.log(error)
+    }
 }
 
 document.getElementById("search-form").onsubmit = function (e) {
     e.preventDefault();
-    const query = e.target.search.value.trim();
+    const query = e.target.search.value.trim().toLowerCase();
     if (!query) {
-        init();
+        e.target.search.placeholder = "Enter Css Property.";
+        init(currentPage)
         return;
     };
     const { ok, value } = checkCssRegex(query);
     if (!ok) {
         e.target.search.placeholder = value;
         this.reset();
-        init();
+        init(currentPage);
         return;
     };
-    SearchData(value)
-        .then((res) => renderCards(res))
-        .catch((err) => renderCards({ message: "something went wrong", ok: false, payload: [] }))
+
+    SearchData(query).then(res => res).catch(err => errorMsg(err.message))
 }
 
-function init() {
-    fetchData()
-        .then(({ ok, payload, message }) => {
-            const data = {
-                ok,
-                payload: payload.slice((currentPage * 20) - 20, 20 * currentPage),
-                message
-            };
-            renderCards(data)
-        })
+function init(page) {
+    if (page !== 1) {
+        pagination.classList.add("justify-between")
+        prevBtn.classList.remove("hidden")
+    };
+    fetchData(page)
+        .then((res) => renderCards(res))
         .catch((err) => {
             console.error(err)
-            renderCards({ message: "something went wrong", ok: false, payload: [] })
+            renderCards({ message: "wrong when trying to fetch data", ok: false, payload: [] })
         })
+
 }
 
-init()
+init(currentPage)

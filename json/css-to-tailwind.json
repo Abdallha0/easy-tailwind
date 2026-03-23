@@ -5091,5 +5091,6 @@
     "class": "indent-8",
     "description": "Indents first line of text by 32px",
     "category": "Typography"
-  }
+  },
+  "end"
 ]

@@ -16,7 +16,11 @@ input {
     -webkit-text-fill-color: #ffffff;
 }
 
-.text{
+.scrollbar-style {
+    scrollbar-width: thin;
+    scrollbar-color: #0bcae4 #00000000;
+    scroll-behavior: smooth;
+    padding-bottom: 5px;
 }
 
 @keyframes up-down {
