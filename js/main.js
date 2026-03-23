@@ -1,3 +1,5 @@
+// Main script for Easy Tailwind: Handles scroll animations, pagination, and search utilities
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -11,7 +13,7 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 let currentPage = 1;
 
-// Prev/Next handlers
+// Event handlers for pagination buttons
 prevBtn.addEventListener("click", () => {
     currentPage--;
     if (currentPage === 1) {
@@ -26,6 +28,7 @@ nextBtn.addEventListener("click", () => {
     init(currentPage)
 });
 
+// Function to validate and format CSS property input
 function checkCssRegex(value) {
     const cssPropertyRegex = /^[a-zA-Z-]+:\s*[^;]+;?$/;
     if (!cssPropertyRegex.test(value)) {
@@ -47,6 +50,7 @@ function checkCssRegex(value) {
     }
 }
 
+// Fallback function for searching CSS properties when exact match not found
 function planB(data, query) {
     let property = query.split(":")[0];
     let value = query.split(":")[1].trim();
@@ -74,6 +78,7 @@ function planB(data, query) {
     else return null
 }
 
+// Function to sort data array based on relevance to the search query
 function sortingData(query, array, regex) {
     const match = query.match(regex);
     const searchTerm = match ? match[1] : "";

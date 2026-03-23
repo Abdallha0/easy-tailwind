@@ -1,9 +1,13 @@
+// Script for Easy Tailwind: A tool to convert CSS properties to Tailwind classes
+// Handles data fetching, rendering cards, copying, searching, and pagination
+
 const contentContainer = document.getElementById("content-container");
 const domain = location.origin
 const url = domain.startsWith("https") ? domain + "/easy-tailwind/json/css-to-tailwind.json" : domain + "/json/css-to-tailwind.json"
 contentContainer.innerHTML = `<h2 class="text-white text-center text-4xl p-20">Loading...</h2>`;
 const errorMsg = (msg) => `<h2 class="capitalize text-white text-center text-4xl p-20">${msg}</h2>`
 
+// Function to copy text to clipboard and update the button UI
 function copy(text) {
     navigator.clipboard.writeText(text);
     document.getElementById(text).innerHTML = '<span class="-rotate-12 transition-all duration-300">Copied</span>';
@@ -16,6 +20,7 @@ function copy(text) {
     }, 3000);
 }
 
+// Function to generate HTML for a card displaying Tailwind class, CSS, and description
 function card(i) {
     if (typeof i !== "object") return;
     return `
@@ -42,6 +47,7 @@ function card(i) {
             </div>`
 }
 
+// Function to render the cards in the content container, handle errors, and set up pagination
 function renderCards(data) {
     if (!data.ok) {
         contentContainer.innerHTML = errorMsg(data.message || "");
@@ -61,6 +67,7 @@ function renderCards(data) {
     return;
 }
 
+// Async function to fetch data from JSON file and slice for pagination
 async function fetchData(page) {
     try {
         const res = await fetch(url);
@@ -94,6 +101,7 @@ async function fetchData(page) {
     }
 }
 
+// Async function to search for CSS properties in the data
 async function SearchData(query) {
     try {
         if (!query) return;
@@ -122,6 +130,7 @@ async function SearchData(query) {
     }
 }
 
+// Event listener for the search form submission
 document.getElementById("search-form").onsubmit = function (e) {
     e.preventDefault();
     const query = e.target.search.value.trim().toLowerCase();
@@ -141,6 +150,7 @@ document.getElementById("search-form").onsubmit = function (e) {
     SearchData(query).then(res => res).catch(err => errorMsg(err.message))
 }
 
+// Function to initialize the page by fetching and rendering data for the given page
 function init(page) {
     if (page !== 1) {
         pagination.classList.add("justify-between")
@@ -152,7 +162,7 @@ function init(page) {
             console.error(err)
             renderCards({ message: "wrong when trying to fetch data", ok: false, payload: [] })
         })
-
 }
 
+// Initialize the app with the current page
 init(currentPage)
